@@ -12,6 +12,7 @@
 .navbar-collapse {
     font-size: 16px;
     background-color: #b6c9cd;
+    color: solid black;
 }
 
 .form {
@@ -22,6 +23,7 @@
 
 .background {
     background-image: url(/img/pinkbackground.jpg);
+    margin-top: 0px;
 }
 
 img {
@@ -31,28 +33,45 @@ img {
 
 .navbar-header {
     background-color: #b6c9cd;
+    color: solid black;   
 }
 
 .navbar navbar-inverse navbar-static-top {
     background-color: #b6c9cd;
-}
-.navbar-toggle {
-    color: #0e2f3f;
+    color: solid black;
 }
 
 h1, h2, h3, h4, h5 {
+    margin-top: 30px;
     margin-left: 20px;
-    margin-top: 10px;
 }
 
 .icon {
     float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+body {
+    border: 20px solid #b6c9cd;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
 }
 
 .name {
-    margin-left: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
 
-.description {
-    margin-left: 50px;
+h4 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
 }
