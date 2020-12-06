@@ -36,3 +36,7 @@ img {
 .navbar-header {
     background-color: #b6c9cd;
 }
+
+.navbar navbar-inverse navbar-static-top {
+    background-color: #b6c9cd;
+}
