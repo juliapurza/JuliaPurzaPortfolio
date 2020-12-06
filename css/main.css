@@ -83,3 +83,18 @@ p {
 .contact {
     margin-right: 50px;
 }
+
+.school {
+    font-size: 20px;
+    text-align: center;
+}
+
+.UX {
+    text-align: center;
+}
+
+.map {
+    float: left;
+    margin-left: 20px;
+}
+
