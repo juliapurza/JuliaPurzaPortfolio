@@ -6,7 +6,6 @@ import aItems from "../items/index.js";
 
 class Page {
     constructor(){
-        console.log("test");
         this.sName = "Julia Purza";
         this.sURLToEmailer = "https://arcane-headland-52292.herokuapp.com/send/";
         const sBase = document.location.pathname;
