@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" class="index">
+    <head>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+        
+    <title>Home</title>
+    </head>
+    <body class="background"> 
+    
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=".">Portfolio of Richard Hildred</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mywork.html">Work</a></li>
+        </ul>
+    </div>
+</div>
+        
+<h1 id="es6-static-site-renderer--with-markdown">ES6 Static Site Renderer ... With Markdown</h1>
+<p>Simplest way that I could think of to generate a static site with ES6 templates.</p>
+<h2 id="quick-start">Quick Start</h2>
+<p>With <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">live server</a>.</p>
+<pre><code>npm install
+npm start
+</code></pre>
+<p>Right click over <code>index.html</code> and Open with Live Server.</p>
+<h2 id="how-to-include-your-own-content">How to include your own content</h2>
+<p>The basic format of a page is a .js file with the same name as the .html file that you want to have generated. For instance:</p>
+<pre><code class="language-index.js">
+const Page = require(&quot;./partials/Page&quot;);
+
+module.exports = class extends Page {
+    render(sPage) {
+        return `
+${this.requireMarkdown(&#39;./pages/index.md`)}
+        `;
+    }
+}
+</code></pre>
+<p>In the above case the generated html lacks the structure of a proper .html file. There is a more complete example of a multi-page site in this repository.</p>
+<p>Of course this could also be used for a single page site just by using 1 template.</p>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<footer class="footer">Julia Purza ©</footer>
+        
+    </body>
+</html>
+        

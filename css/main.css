@@ -1,0 +1,30 @@
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
+.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.index .navbar-inverse a.navbar-brand[href="."]
+{
+    color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+.navbar-collapse {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.form {
+    display: block;
+    margin-left: 20px;
+
+}
+
+.h2 {
+    margin-left: 20px;
+}
+
+.background {
+    background-image: url(/img/Background.png);
+    background-repeat: no-repeat;
+}
