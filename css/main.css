@@ -44,3 +44,15 @@ h1, h2, h3, h4, h5 {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+.icon {
+    float: left;
+}
+
+.name {
+    margin-left: 50px;
+}
+
+.description {
+    margin-left: 50px;
+}
