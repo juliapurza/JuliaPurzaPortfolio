@@ -25,11 +25,12 @@
 }
 
 .background {
-    background-image: url(/img/Background.png);
+    background-image: url(/img/pinkbackground.jpg);
     background-repeat: no-repeat;
 }
 
 img {
     float: right;
     margin-right: 20px;
+    margin-top: 20px;
 }
