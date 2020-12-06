@@ -31,7 +31,6 @@ img {
 
 .navbar-header {
     background-color: #b6c9cd;
-    margin-left: 10px;
 }
 
 .navbar navbar-inverse navbar-static-top {
@@ -43,4 +42,5 @@ img {
 
 h1, h2, h3, h4, h5 {
     margin-left: 20px;
+    margin-top: 10px;
 }
