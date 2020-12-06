@@ -40,3 +40,6 @@ img {
 .navbar navbar-inverse navbar-static-top {
     background-color: #b6c9cd;
 }
+.navbar-toggle {
+    color: #0e2f3f;
+}
