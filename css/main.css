@@ -52,10 +52,6 @@ h1, h2, h3, h4, h5 {
     margin-top: 12px;
 }
 
-body {
-    border: 20px solid #b6c9cd;
-}
-
 footer {
     background-color: #b6c9cd;
     color: black;
@@ -92,5 +88,30 @@ p {
 .map {
     float: left;
     margin-left: 20px;
+}
+
+h2:hover {
+    color: #a396c7;
+}
+
+h3:hover {
+    color: #a396c7;
+}
+
+h4:hover {
+    color: #799f3b;
+}
+
+.name:hover {
+    color: #a396c7;
+}
+
+iframe {
+    float: right;
+    margin-right: 20px;
+}
+
+.h3work {
+    margin-top: 50px;
 }
 
