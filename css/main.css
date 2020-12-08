@@ -86,7 +86,7 @@ p {
 }
 
 .map {
-    float: left;
+    float: right;
     margin-left: 20px;
 }
 
@@ -109,9 +109,18 @@ h4:hover {
 iframe {
     float: right;
     margin-right: 20px;
+    margin-top: -305px;
 }
 
 .h3work {
     margin-top: 50px;
 }
 
+.h3work:hover {
+    color: #b6c9cd;
+}
+
+.pwork {
+    width: 450px;
+    line-height: 200%;
+}
