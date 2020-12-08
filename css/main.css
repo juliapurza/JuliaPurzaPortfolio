@@ -1,8 +1,9 @@
 .contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
 .about .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.work .navbar-inverse .navbar-nav > li > a[href="mywork.html"],
 .index .navbar-inverse a.navbar-brand[href="."]
 {
-    color: #0e2f3f;
+    color: black;
 }
 
 .navbar-collapse {
@@ -42,6 +43,10 @@ h1, h2, h3, h4, h5 {
     margin-left: 20px;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 .me {
     float: left;
     margin-left: 20px;
@@ -60,9 +65,8 @@ footer {
 }
 
 .name {
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 30px;
-    font-size: 30px;
 }
 
 h4 {
@@ -101,6 +105,17 @@ p {
     background-color: #f5b133;
 }
 
+.sub {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 675px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    background-color: #d3d3d3;
+}
+
 .mywork {
     color: black;
 }
@@ -122,25 +137,28 @@ p {
 }
 
 iframe {
-    float: right;
-    margin-right: 20px;
-    margin-top: -393px;
+    margin-left: 275px;
+}
+
+.frame2 {
+    margin-left: 380px;
 }
 
 .h3work {
     margin-top: 50px;
-    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
 }
 
-.h3work:hover {
-    color: #b6c9cd;
+.h3work1 {
+    margin-left: 600px;
+    font-size: 25px;
 }
 
 .pwork {
-    width: 400px;
-    line-height: 200%;
-    border: 1px solid black;
-    padding: 10px;
+    width: 1340px;
+    line-height: 180%;
+    text-align: center;
 }
 
 .here:hover {
@@ -192,11 +210,17 @@ iframe {
 .button {
     color: black;
     background-color: #b6c9cd;
-    padding: 20px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 635px;
 }
 
 .button:hover {
     color: white;
     text-decoration: none;
+}
+
+.enjoy {
+    margin-left: 450px;
 }
