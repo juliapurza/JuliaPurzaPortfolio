@@ -94,8 +94,20 @@ p {
 .passion {
     font-size: 20px;
     text-align: center;
+    margin-left: 650px;
     border: 1px solid black;
-    padding: auto;
+    padding: 5px;
+    width: 150px;
+    background-color: #f5b133;
+}
+
+.mywork {
+    color: black;
+}
+
+.mywork:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .map {
@@ -103,18 +115,6 @@ p {
     margin-left: 370px;
     margin-top: 5px;
     background-color: #b6c9cd;
-}
-
-h2:hover {
-    color: #81aec5;
-}
-
-h3:hover {
-    color: #81aec5;
-}
-
-h4:hover {
-    color: #887171;
 }
 
 .name:hover {
@@ -155,4 +155,35 @@ iframe {
     float: left;
     text-emphasis: wrap;
     margin-left: 20px;
+}
+
+.hoverp:hover {
+    color: #372883;
+}
+
+.hovery:hover {
+    color: #f5b133;
+}
+
+.hoverr:hover {
+    color: #e93f34;
+}
+
+.github {
+    color: grey;
+}
+
+.github:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.link {
+    margin-left: 20px;
+    line-height: 200%;
+    font-size: 18px;
+}
+
+.contact {
+    margin-top: -10px;
 }
