@@ -5,10 +5,6 @@
     color: #0e2f3f;
 }
 
-.footer {
-    text-align: center;
-}
-
 .navbar-collapse {
     font-size: 16px;
     background-color: #b6c9cd;
@@ -60,6 +56,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     border-top: 1px solid black;
+    padding-bottom: 10px;
 }
 
 .name {
@@ -74,20 +71,38 @@ h4 {
 p {
     margin-left: 20px;
     font-size: 17px;
-}
-
-.school {
-    font-size: 20px;
-    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .UX {
+    margin-left: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.UX2 {
+    font-size: 25px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.passionate {
+    font-size: 30px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.passion {
+    margin-left: 40px;
     text-align: center;
 }
 
 .map {
-    float: right;
-    margin-left: 20px;
+    float: left;
+    margin-left: 225px;
+    margin-top: 5px;
+    background-color: #b6c9cd;
 }
 
 h2:hover {
@@ -124,3 +139,4 @@ iframe {
     width: 450px;
     line-height: 200%;
 }
+
