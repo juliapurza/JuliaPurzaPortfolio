@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5 {
 .me {
     float: left;
     margin-left: 20px;
-    margin-top: 12px;
+    margin-top: 80px;
 }
 
 footer {
@@ -62,6 +62,7 @@ footer {
 .name {
     margin-left: 25px;
     margin-top: 30px;
+    font-size: 30px;
 }
 
 h4 {
@@ -70,51 +71,50 @@ h4 {
 
 p {
     margin-left: 20px;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-.UX {
-    margin-left: 40px;
-    font-size: 40px;
-    text-align: center;
+.UX1 {
+    font-size: 30px;
+    margin-left: 590px;
 }
 
 .UX2 {
     font-size: 25px;
-    margin-left: 40px;
-    text-align: center;
+    margin-left: 580px;
 }
 
 .passionate {
-    font-size: 30px;
-    margin-left: 40px;
+    font-size: 25px;
     text-align: center;
 }
 
 .passion {
-    margin-left: 40px;
+    font-size: 20px;
     text-align: center;
+    border: 1px solid black;
+    padding: auto;
 }
 
 .map {
     float: left;
-    margin-left: 225px;
+    margin-left: 370px;
     margin-top: 5px;
     background-color: #b6c9cd;
 }
 
 h2:hover {
-    color: #a396c7;
+    color: #81aec5;
 }
 
 h3:hover {
-    color: #a396c7;
+    color: #81aec5;
 }
 
 h4:hover {
-    color: #799f3b;
+    color: #887171;
 }
 
 .name:hover {
@@ -124,7 +124,7 @@ h4:hover {
 iframe {
     float: right;
     margin-right: 20px;
-    margin-top: -305px;
+    margin-top: -393px;
 }
 
 .h3work {
@@ -136,7 +136,23 @@ iframe {
 }
 
 .pwork {
-    width: 450px;
+    width: 400px;
     line-height: 200%;
+    border: 1px solid black;
+    padding: 10px;
 }
 
+.here:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.here {
+    color: grey;
+}
+
+.logo {
+    float: left;
+    text-emphasis: wrap;
+    margin-left: 20px;
+}
