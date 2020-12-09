@@ -14,8 +14,12 @@
 
 .form {
     float: left;
-    margin-left: 20px;
+    margin-left: 85px;
     margin-top: 20px;
+}
+
+.contactme {
+    margin-left: 200px;
 }
 
 .background {
@@ -194,7 +198,7 @@ iframe {
 }
 
 .github {
-    color: grey;
+    color: black;
 }
 
 .github:hover {
@@ -203,13 +207,13 @@ iframe {
 }
 
 .link {
-    margin-left: 20px;
+    margin-left: 200px;
     line-height: 200%;
     font-size: 18px;
 }
 
 .contact {
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .button {
@@ -237,7 +241,8 @@ iframe {
 .description {
     margin-left: 150px;
     line-height: 200%;
-    width: 1000px;
+    text-align: justify;
+    width: 950px;
 }
 
 .skills {
