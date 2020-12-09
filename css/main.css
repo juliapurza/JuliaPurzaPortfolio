@@ -48,9 +48,14 @@ h1 {
 }
 
 .me {
-    float: left;
-    margin-left: 20px;
-    margin-top: 80px;
+    float: right;
+    margin-top: 10px;
+}
+
+.me2 {
+    float: right;
+    margin-right: -195px;
+    margin-top: 340px;
 }
 
 footer {
@@ -167,7 +172,7 @@ iframe {
 }
 
 .here {
-    color: grey;
+    color: black;
 }
 
 .logo {
@@ -227,4 +232,29 @@ iframe {
 
 .moresoon {
     margin-left: 610px;
+}
+
+.description {
+    margin-left: 150px;
+    line-height: 200%;
+    width: 1000px;
+}
+
+.skills {
+    margin-left: 150px;
+    color: #772120;
+}
+
+.skills1 {
+    margin-left: 150px;
+    color: #a396c7;
+}
+
+.skills2 {
+    margin-left: 150px;
+    color: white;
+}
+
+.aboutme {
+    margin-left: 150px;
 }
