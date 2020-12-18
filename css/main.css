@@ -11,6 +11,10 @@
     color: white;
 }
 
+nav navbar-nav navbar-right {
+    color: white;
+}
+
 navbar-toggle {
     color: white;
 }
@@ -26,7 +30,7 @@ navbar-toggle {
 }
 
 .background {
-    background-color: black;
+    background-color: #f5c2bc;
 }
 
 img {
@@ -56,8 +60,8 @@ h1 {
 
 .me {
     float: right;
-    margin-top: 200px;
-    margin-right: 40px;
+    margin-top: 157px;
+    margin-right: 150px;
 }
 
 footer {
@@ -91,13 +95,13 @@ p {
 .UX1 {
     font-size: 30px;
     margin-left: 590px;
-    color: white;
+    color: black;
 }
 
 .UX2 {
     font-size: 25px;
     margin-left: 580px;
-    color: white;
+    color: black;
 }
 
 .passionate {
@@ -172,12 +176,12 @@ iframe {
 }
 
 .here:hover {
-    color: #f5c2bc;
+    color: white;
     text-decoration: none;
 }
 
 .here {
-    color: white;
+    color: #f5c2bc;
 }
 
 .logo {
@@ -240,7 +244,7 @@ iframe {
 }
 
 .description {
-    color: white;
+    color: #f5c2bc;
     margin-left: 150px;
     line-height: 200%;
     text-align: justify;
@@ -256,18 +260,27 @@ iframe {
 }
 
 .skills {
-    margin-left: 150px;
-    color: #772120;
+    width: 1000px;
 }
 
 .skills1 {
     margin-left: 150px;
-    color: #a396c7;
+    color: #772120;
+    width: 1000px;
 }
 
 .skills2 {
     margin-left: 150px;
+    color: #a396c7;
+}
+
+.skills3 {
+    margin-left: 150px;
     color: white;
+}
+
+.skills3 {
+    margin-left: 150px;
 }
 
 .aboutme {
