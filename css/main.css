@@ -20,13 +20,36 @@ navbar-toggle {
 }
 
 .form {
-    float: left;
-    margin-left: 85px;
+    text-align: left;
+    margin-left: 150px;
     margin-top: 20px;
+    border: 2px solid black;
+    padding: 100px;
+    background-color: black;
+    margin-right: 150px;
 }
 
-.contactme {
-    margin-left: 200px;
+input, textarea {
+    display: block;
+    padding: 15px;
+}
+
+.text {
+    width: 250px;
+}
+
+.email {
+    width: 250px;
+}
+
+.message {
+    width: 250px;
+}
+
+.submit {
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 90px;
 }
 
 .background {
@@ -202,23 +225,14 @@ iframe {
     color: #e93f34;
 }
 
-.github {
-    color: black;
-}
-
-.github:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.link {
-    margin-left: 200px;
-    line-height: 200%;
-    font-size: 18px;
-}
-
 .contact {
     margin-top: 10px;
+}
+
+.contactt {
+    margin-left: 45px;
+    color: white;
+    font-size: 35px;
 }
 
 .enjoy {
@@ -274,4 +288,18 @@ iframe {
 .aboutme {
     font-size: 30px;
     margin-left: 215px;
+}
+
+.linkedin {
+    float: right;
+    margin-right: 285px;
+    margin-top: 140px;
+}
+
+.followme {
+    font-size: 18px;
+    color: white;
+    float: right;
+    margin-right: -250px;
+    margin-top: 155px;
 }
