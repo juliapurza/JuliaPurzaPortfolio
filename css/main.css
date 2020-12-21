@@ -7,16 +7,19 @@
 
 .navbar-collapse {
     font-size: 16px;
-    background-color: #333333;
+    background-color: #f5c2bc;
     color: white;
+    border-style: none;
 }
 
 nav navbar-nav navbar-right {
     color: white;
+    border-style: none;
 }
 
 navbar-toggle {
     color: white;
+    border-style: none;
 }
 
 .form {
@@ -63,13 +66,15 @@ img {
 }
 
 .navbar-header {
-    background-color: #333333;
-    color: white;   
+    background-color: #f5c2bc;
+    color: white;
+    border: none;
 }
 
 .navbar navbar-inverse navbar-static-top {
-    background-color: #333333;
+    background-color: #f5c2bc;
     color: white;
+    border: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -87,16 +92,23 @@ h1 {
     margin-right: 60px;
 }
 
+.sr-only {
+
+}
+
+.icon-bar {
+
+}
+
 footer {
-    background-color: #333333;
-    color: white;
+    background-color: #f5c2bc;
     font-family: "Lato", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
-    font-weight: bold;
     padding-top: 20px;
     border-top: 1px solid black;
     padding-bottom: 20px;
+    border-style: none;
 }
 
 .name {
