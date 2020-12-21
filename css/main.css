@@ -89,6 +89,24 @@ h1 {
     margin-right: 400px;
 }
 
+.me2 {
+    float: right;
+    margin-top: 30px;
+    margin-right: -675px;
+}
+
+.abstract {
+    float: right;
+    margin-top: 507px;
+    margin-right: -675px;
+}
+
+.skillz {
+    float: right;
+    margin-top: 507px;
+    margin-right: -320px;
+}
+
 footer {
     background-color: #f5c2bc;
     font-family: "Lato", sans-serif;
@@ -246,7 +264,7 @@ iframe {
 
 .description {
     color: #f5c2bc;
-    margin-left: 60px;
+    margin-left: 50px;
     line-height: 200%;
     text-align: justify;
     width: 650px;
