@@ -60,8 +60,8 @@ h1 {
 
 .me {
     float: right;
-    margin-top: 210px;
-    margin-right: 150px;
+    margin-top: 30px;
+    margin-right: 60px;
 }
 
 footer {
@@ -221,20 +221,6 @@ iframe {
     margin-top: 10px;
 }
 
-.button {
-    color: black;
-    background-color: #b6c9cd;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 635px;
-}
-
-.button:hover {
-    color: white;
-    text-decoration: none;
-}
-
 .enjoy {
     margin-left: 450px;
 }
@@ -245,12 +231,12 @@ iframe {
 
 .description {
     color: #f5c2bc;
-    margin-left: 150px;
+    margin-left: 60px;
     line-height: 200%;
     text-align: justify;
     width: 650px;
     border: 1px solid black;
-    padding: 20px;
+    padding: 50px;
     background-color: black;
 }
 
@@ -261,11 +247,31 @@ iframe {
 
 .skills {
     width: 1000px;
-    color: black;
     line-height: 200%;
-    margin-left: 150px;
+    margin-left: 250px;
+}
+
+.skills1:hover {
+    color: #63000A;
+}
+
+.skills2:hover {
+    color: #6f6a7d;
+}
+
+.skills3:hover {
+    color: #63000A;
+}
+
+.skills4:hover {
+    color: #6f6a7d;
 }
 
 .aboutme {
     margin-left: 150px;
+}
+
+.aboutme {
+    font-size: 30px;
+    margin-left: 215px;
 }
