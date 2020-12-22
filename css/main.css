@@ -3,12 +3,12 @@
 .index .navbar-inverse a.navbar-brand[href="."]
 {
     color: white;
+    background-color: #9099a2
 }
 
 .navbar-collapse {
     font-size: 16px;
     background-color: #9099a2;
-    border-color: #9099a2;
 }
 
 .navbar-header {
@@ -17,6 +17,14 @@
 
 .navbar navbar-inverse navbar-static-top {
     background-color: #9099a2;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-collapse collapse {
+    color: white;
 }
 
 .form {
