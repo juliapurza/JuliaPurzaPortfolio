@@ -188,7 +188,7 @@ p {
     border: 1px solid black;
     padding: 5px;
     width: 100px;
-    background-color: #d3d3d3;
+    background-color: #d6d6d6;
 }
 
 .mywork {
@@ -200,19 +200,13 @@ p {
     text-decoration: none;
 }
 
-.map {
-    float: left;
-    margin-left: 370px;
-    margin-top: 5px;
-    background-color: #b6c9cd;
-}
-
 .name:hover {
     color: #a396c7;
 }
 
 iframe {
     margin-left: 275px;
+    border: 15px solid #96858f;
 }
 
 .frame2 {
