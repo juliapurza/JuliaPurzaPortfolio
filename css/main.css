@@ -2,7 +2,7 @@
 .work .navbar-inverse .navbar-nav > li > a[href="mywork.html"],
 .index .navbar-inverse a.navbar-brand[href="."]
 {
-    color: black;
+    color: white;
 }
 
 .navbar-collapse {
@@ -236,7 +236,8 @@ iframe {
 .logo {
     float: left;
     text-emphasis: wrap;
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-top: 40px;
 }
 
 .hoverp:hover {
@@ -317,7 +318,6 @@ iframe {
 }
 
 .linkedin {
-    float: right;
-    margin-top: 100px;
-    margin-right: 35px;
+    float: left;
+    margin-left: 395px;
 }
