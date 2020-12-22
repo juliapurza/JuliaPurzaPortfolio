@@ -321,15 +321,12 @@ iframe {
 }
 
 .aboutme {
-    margin-left: 150px;
-}
-
-.aboutme {
     font-size: 30px;
     margin-left: 215px;
+    font-family: "Lato", sans-serif;
 }
 
 .linkedin {
     float: left;
-    margin-left: 395px;
+    text-align: center;
 }
