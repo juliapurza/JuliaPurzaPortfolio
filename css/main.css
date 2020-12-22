@@ -251,13 +251,6 @@ iframe {
     margin-top: 40px;
 }
 
-.logomain {
-    float: left;
-    text-emphasis: wrap;
-    margin-left: 50px;
-    margin-top: 40px;
-}
-
 .hoverp:hover {
     color: #372883;
 }
