@@ -93,19 +93,19 @@ h1 {
 .me {
     float: right;
     margin-top: 30px;
-    margin-right: 380px;
+    margin-right: 350px;
 }
 
 .dusty {
     float: right;
     margin-top: 30px;
-    margin-right: -625px;
+    margin-right: -580px;
 }
 
 .me2 {
     float: right;
     margin-top: 350px;
-    margin-right: -625px;
+    margin-right: -580px;
 }
 
 .lavendar {
@@ -117,7 +117,7 @@ h1 {
 .dusty2 {
     float: right;
     margin-top: 670px;
-    margin-right: -625px;
+    margin-right: -580px;
 }
 
 .me3 {
@@ -161,7 +161,7 @@ p {
 
 .UX2 {
     font-size: 25px;
-    margin-left: 580px;
+    margin-left: 550px;
     color: black;
 }
 
@@ -288,7 +288,7 @@ iframe {
     margin-left: 50px;
     line-height: 200%;
     text-align: justify;
-    width: 650px;
+    width: 700px;
     padding: 50px;
     background-color: #96858f;
 }
