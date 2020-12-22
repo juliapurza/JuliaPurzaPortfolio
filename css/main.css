@@ -225,7 +225,7 @@ iframe {
 }
 
 .h3work1 {
-    margin-left: 600px;
+    text-align: center;
     font-size: 25px;
 }
 
@@ -272,14 +272,13 @@ iframe {
     color: white;
     font-size: 35px;
     margin-top: -25px;
+    margin-right: 50px;
 }
 
 .enjoy {
-    margin-left: 450px;
-}
-
-.moresoon {
-    margin-left: 610px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 100px;
 }
 
 .description {
