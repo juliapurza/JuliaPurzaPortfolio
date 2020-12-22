@@ -13,6 +13,7 @@
 
 .navbar-header {
     background-color: #9099a2;
+    color: white;
 }
 
 .navbar navbar-inverse navbar-static-top {
@@ -20,10 +21,6 @@
 }
 
 .navbar-brand {
-    color: white;
-}
-
-.navbar-collapse collapse {
     color: white;
 }
 
@@ -116,7 +113,7 @@ h1 {
     margin-right: -580px;
 }
 
-.lavendar {
+.lavender {
     float: right;
     margin-top: 350px;
     margin-right: -280px;
@@ -286,7 +283,7 @@ iframe {
 }
 
 .description {
-    color: #d5d5d5;
+    color: white;
     margin-left: 50px;
     line-height: 200%;
     text-align: justify;
@@ -333,5 +330,5 @@ iframe {
 
 .linkedin {
     float: left;
-    text-align: center;
+    margin-left: 400px;
 }
