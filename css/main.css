@@ -291,6 +291,9 @@ iframe {
     width: 700px;
     padding: 50px;
     background-color: #96858f;
+    font-family: "Lato", sans-serif;
+    font-weight: black;
+    font-size: 20px;
 }
 
 .aboutback {
