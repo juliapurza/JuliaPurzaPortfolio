@@ -99,19 +99,31 @@ h1 {
 .dusty {
     float: right;
     margin-top: 30px;
-    margin-right: -675px;
+    margin-right: -625px;
 }
 
 .me2 {
     float: right;
-    margin-top: 507px;
-    margin-right: -675px;
+    margin-top: 350px;
+    margin-right: -625px;
 }
 
 .lavendar {
     float: right;
-    margin-top: 507px;
-    margin-right: -320px;
+    margin-top: 350px;
+    margin-right: -280px;
+}
+
+.dusty2 {
+    float: right;
+    margin-top: 670px;
+    margin-right: -625px;
+}
+
+.me3 {
+    float: right;
+    margin-top: 670px;
+    margin-right: -280px;
 }
 
 footer {
