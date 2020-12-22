@@ -231,8 +231,7 @@ iframe {
 
 .pwork {
     width: 1200px;
-    line-height: 180%;
-    text-align: center;
+    text-align: justify;
     margin-left: 125px;
 }
 
@@ -354,13 +353,18 @@ iframe {
 }
 
 .myangle {
-    text-align: center;
+    margin-left: 225px;
+    text-align: justify;
+    width: 1000px;
 }
 
 .references {
     text-align: center;
+    font-size: 20px;
 }
 
-.preferences {
+.preference {
+    margin-left: 225px;
     text-align: center;
+    width: 1000px;
 }
