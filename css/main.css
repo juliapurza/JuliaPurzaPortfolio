@@ -25,11 +25,8 @@
 }
 
 .form {
-    margin-left: 180px;
-    margin-top: 20px;
     padding: 100px;
     background-color: #96858f;
-    margin-right: 150px;
 }
 
 input, textarea {
@@ -41,7 +38,6 @@ input, textarea {
     width: 500px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 200px;
     border-radius: 15px;
     border: none;
 }
@@ -50,7 +46,6 @@ input, textarea {
     width: 500px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 200px;
     border-radius: 15px;
     border: none;
 }
@@ -59,7 +54,6 @@ input, textarea {
     width: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 200px;
     border-radius: 25px;
     border: none;
 }
@@ -71,7 +65,6 @@ input, textarea {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #9099a2;
-    margin-left: 200px;
     border-radius: 15px;
     border: 0.5px solid black;
 }
@@ -82,53 +75,25 @@ input, textarea {
 
 img {
     float: right;
-    margin-right: 20px;
-    margin-top: 0px;
 }
 
 h1, h2, h3, h4, h5 {
-    margin-top: 30px;
-    margin-left: 20px;
 }
 
 h1 {
     font-size: 30px;
 }
 
-.me {
-    float: right;
-    margin-top: 30px;
-    margin-right: 350px;
-}
-
 .dusty {
-    float: right;
-    margin-top: 30px;
-    margin-right: -580px;
-}
-
-.me2 {
-    float: right;
-    margin-top: 350px;
-    margin-right: -580px;
+    padding: 20px;
 }
 
 .lavender {
-    float: right;
-    margin-top: 350px;
-    margin-right: -280px;
+    padding: 20px;
 }
 
 .dusty2 {
-    float: right;
-    margin-top: 670px;
-    margin-right: -580px;
-}
-
-.me3 {
-    float: right;
-    margin-top: 670px;
-    margin-right: -280px;
+    padding: 20px;
 }
 
 footer {
@@ -136,15 +101,9 @@ footer {
     font-family: "Lato", sans-serif;
     font-size: 15px;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
     border-top: 1px solid black;
-    padding-bottom: 20px;
     border-style: none;
-}
-
-.name {
-    margin-left: 20px;
-    margin-top: 30px;
 }
 
 h4 {
@@ -152,21 +111,16 @@ h4 {
 }
 
 p {
-    margin-left: 20px;
     font-size: 20px;
-    margin-left: 50px;
-    margin-top: 30px;
 }
 
 .UX1 {
     font-size: 30px;
-    margin-left: 590px;
     color: black;
 }
 
 .UX2 {
     font-size: 25px;
-    margin-left: 550px;
     color: black;
 }
 
@@ -178,7 +132,6 @@ p {
 .passion {
     font-size: 20px;
     text-align: center;
-    margin-left: 650px;
     border: 1px solid black;
     padding: 5px;
     width: 150px;
@@ -189,7 +142,6 @@ p {
     color: black;
     font-size: 17px;
     text-align: center;
-    margin-left: 675px;
     border: 1px solid black;
     padding: 5px;
     width: 100px;
@@ -210,16 +162,10 @@ p {
 }
 
 iframe {
-    margin-left: 275px;
     border: 15px solid #96858f;
 }
 
-.frame2 {
-    margin-left: 380px;
-}
-
 .h3work {
-    margin-top: 50px;
     text-align: center;
     font-size: 25px;
 }
@@ -232,7 +178,6 @@ iframe {
 .pwork {
     width: 1200px;
     text-align: justify;
-    margin-left: 125px;
 }
 
 .here:hover {
@@ -247,8 +192,6 @@ iframe {
 .logo {
     float: left;
     text-emphasis: wrap;
-    margin-left: 25px;
-    margin-top: 40px;
 }
 
 .hoverp:hover {
@@ -263,27 +206,19 @@ iframe {
     color: #e93f34;
 }
 
-.contact {
-    margin-top: 10px;
-}
-
 .contactt {
     text-align: center;
     color: white;
     font-size: 35px;
-    margin-top: -25px;
-    margin-right: 50px;
 }
 
 .enjoy {
     text-align: center;
     font-size: 30px;
-    margin-right: 100px;
 }
 
 .description {
     color: white;
-    margin-left: 50px;
     line-height: 165%;
     text-align: justify;
     width: 700px;
@@ -302,7 +237,6 @@ iframe {
 .skills {
     width: 1000px;
     line-height: 200%;
-    margin-left: 250px;
 }
 
 .skills1:hover {
@@ -324,13 +258,11 @@ iframe {
 .aboutme {
     font-size: 30px;
     text-align: center;
-    margin-left: 150px;
     font-family: "Lato", sans-serif;
 }
 
 .linkedin {
     float: left;
-    margin-left: 400px;
 }
 
 .myangle1 {
@@ -346,7 +278,6 @@ iframe {
 }
 
 .myangle {
-    margin-left: 225px;
     text-align: justify;
     width: 1000px;
 }
@@ -357,7 +288,10 @@ iframe {
 }
 
 .preference {
-    margin-left: 225px;
     text-align: center;
     width: 1000px;
+}
+
+#assignmentlinks {
+    float: left;
 }
