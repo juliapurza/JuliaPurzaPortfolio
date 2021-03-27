@@ -27,11 +27,16 @@
 .form {
     padding: 100px;
     background-color: #96858f;
+    width: 80%;
+    float: center;
+    margin: auto;
 }
 
 input, textarea {
     display: block;
     padding: 15px;
+    float: center;
+    margin: auto;
 }
 
 .text {
@@ -83,17 +88,26 @@ h1 {
 
 .dusty {
     padding: 20px;
-    margin: auto;
+    display: block;
+    margin: auto
 }
 
-.lavender {
+.lavendar {
     padding: 20px;
-    margin: auto;
+    display: block;
+    margin: auto
 }
 
 .dusty2 {
     padding: 20px;
-    margin: auto;
+    display: block;
+    margin: auto
+}
+
+.lavendar2 {
+    padding: 20px;
+    display: block;
+    margin: auto
 }
 
 footer {
@@ -122,6 +136,12 @@ p {
 
 .UX2 {
     font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.UX3 {
+    font-size: 22px;
     color: black;
     text-align: center;
 }
@@ -207,10 +227,10 @@ iframe {
     color: #e93f34;
 }
 
-.contactt {
+.contact {
     text-align: center;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .enjoy {
@@ -296,9 +316,4 @@ p.description {
 .preference {
     text-align: center;
     width: 1000px;
-}
-
-#assignmentlinks {
-    float: center;
-    margin: auto;
 }
