@@ -86,28 +86,27 @@ h1 {
     font-size: 30px;
 }
 
-.dusty {
-    padding: 20px;
+.assignmentlinks {
+    padding: 25px;
+    float: center;
     display: block;
-    margin: auto
+    margin: auto;
+}
+
+.dusty {
+    padding: 25px;
 }
 
 .lavendar {
-    padding: 20px;
-    display: block;
-    margin: auto
+    padding: 25px;
 }
 
 .dusty2 {
-    padding: 20px;
-    display: block;
-    margin: auto
+    padding: 25px;
 }
 
 .lavendar2 {
-    padding: 20px;
-    display: block;
-    margin: auto
+    padding: 25px;
 }
 
 footer {
