@@ -3,25 +3,26 @@
 .index .navbar-inverse a.navbar-brand[href="."]
 {
     color: white;
-    background-color: #9099a2
+    background-color: #d5d5d5;
+    border-bottom: 0px;
 }
 
 .navbar-collapse {
+    background-color: #d5d5d5;
     font-size: 16px;
-    background-color: #9099a2;
+    border-bottom: 0px;
 }
 
 .navbar-header {
-    background-color: #9099a2;
-    color: white;
-}
-
-.navbar navbar-inverse navbar-static-top {
-    background-color: #9099a2;
+    background-color: #d5d5d5;
+    color: black;
+    border-bottom: 0px;
 }
 
 .navbar-brand {
-    color: white;
+    background-color: #d5d5d5;
+    color: black;
+    border-bottom: 0px;
 }
 
 .form {
@@ -88,8 +89,7 @@ h1 {
 
 .assignmentlinks {
     padding: 25px;
-    float: center;
-    margin: auto;
+    margin-right: 135px;
 }
 
 .dusty {
@@ -130,6 +130,7 @@ p {
     font-size: 30px;
     color: black;
     text-align: center;
+    margin-top: 50px;
 }
 
 .UX2 {
@@ -320,4 +321,10 @@ p.description {
 .preference {
     text-align: center;
     width: 1000px;
+}
+
+.click {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
 }
