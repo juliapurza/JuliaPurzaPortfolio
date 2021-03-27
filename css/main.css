@@ -89,7 +89,6 @@ h1 {
 .assignmentlinks {
     padding: 25px;
     float: center;
-    display: block;
     margin: auto;
 }
 
@@ -211,7 +210,8 @@ iframe {
 }
 
 .logo {
-    float: center;
+    float: left;
+    margin-left: 25px;
 }
 
 .hoverp:hover {
@@ -228,7 +228,7 @@ iframe {
 
 .contact {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
@@ -287,6 +287,11 @@ p.description {
 }
 
 .linkedin {
+    float: center;
+    margin: auto;
+}
+
+.linkedin2 {
     float: left;
 }
 
