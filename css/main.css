@@ -5,25 +5,30 @@
     background-color: #d5d5d5;
     font-size: 20px;
     margin-left: 10px;
+    border-bottom: 0;
 }
 
 .navbar-collapse {
     background-color: #d5d5d5;
     font-size: 16px;
+    border-bottom: 0;
 }
 
 .navbar-header {
     background-color: #d5d5d5;
     color: black;
+    border-bottom: 0;
 }
 
 .navbar-brand {
     background-color: #d5d5d5;
     color: black;
+    border-bottom: 0;
 }
 
 .nav navbar-nav navbar-right {
     margin-right: 20px;
+    border-bottom: 0;
 }
 
 .form {
