@@ -28,7 +28,6 @@ a.navbar-brand {
 
 .form {
     padding: 100px;
-    background-color: #96858f;
     width: 80%;
     float: center;
     margin: auto;
@@ -39,6 +38,7 @@ input, textarea {
     padding: 15px;
     float: center;
     margin: auto;
+    border: 1px solid black;
 }
 
 .text {
@@ -47,6 +47,7 @@ input, textarea {
     padding-bottom: 20px;
     border-radius: 15px;
     border: none;
+    border: 1px solid black;
 }
 
 .email {
@@ -55,6 +56,7 @@ input, textarea {
     padding-bottom: 20px;
     border-radius: 15px;
     border: none;
+    border: 1px solid black;
 }
 
 .message {
@@ -63,6 +65,7 @@ input, textarea {
     padding-bottom: 50px;
     border-radius: 25px;
     border: none;
+    border: 1px solid black;
 }
 
 .submit {
@@ -73,7 +76,7 @@ input, textarea {
     padding-bottom: 10px;
     background-color: #9099a2;
     border-radius: 15px;
-    border: 0.5px solid black;
+    border: 1px solid black;
 }
 
 .background {
