@@ -11,13 +11,12 @@ module.exports = class extends Page{
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href=".">Portfolio of ${this.sName}</a>
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About Me</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </div>
 </div>
