@@ -1,34 +1,29 @@
 .contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
-.work .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
 .index .navbar-inverse a.navbar-brand[href="."] {
     color: black;
     background-color: #d5d5d5;
     font-size: 18px;
     margin-left: 10px;
-    border-bottom: 0;
 }
 
 .navbar-collapse {
     background-color: #d5d5d5;
     font-size: 16px;
-    border-bottom: 0;
 }
 
 .navbar-header {
     background-color: #d5d5d5;
     color: black;
-    border-bottom: 0;
 }
 
-.navbar-brand {
+a.navbar-brand {
     background-color: #d5d5d5;
     color: black;
-    border-bottom: 0;
 }
 
-.nav navbar-nav navbar-right {
-    margin-right: 20px;
-    border-bottom: 0;
+.navbar-inverse {
+    border: 0;
 }
 
 .form {
@@ -295,7 +290,6 @@ p.description {
 
 .linkedin {
     float: center;
-    margin: auto;
 }
 
 .linkedin2 {
