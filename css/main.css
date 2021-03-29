@@ -93,7 +93,8 @@ h1 {
 
 .assignmentlinks {
     padding: 25px;
-    margin-right: 135px;
+    float: center;
+    margin: 0;
 }
 
 .dusty {
