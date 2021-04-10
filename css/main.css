@@ -269,10 +269,12 @@ iframe {
     color:  #96858f;
 }
 
+@media screen and (max-device-width: 250px){
 .aboutme {
     font-size: 25px;
     text-align: center;
     font-family: "Lato", sans-serif;
+}
 }
 
 .linkedin {
