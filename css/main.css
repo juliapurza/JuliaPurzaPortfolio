@@ -26,7 +26,7 @@ a.navbar-brand {
     border: 0;
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+@media screen and (min-device-width: 375px) and (max-device-width: 2560px){
 .form {
     padding: 100px;
     float: center;
