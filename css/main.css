@@ -242,22 +242,6 @@ iframe {
     font-size: 30px;
 }
 
-.description {
-    color: black;
-    line-height: 165%;
-    text-align: justify;
-    width: 80%;
-    padding: 50px;
-    font-family: "Lato", sans-serif;
-    font-weight: black;
-    font-size: 20px;
-    margin: auto;
-}
-
-p.description {
-    float: center;
-}
-
 .aboutback {
     border: 1px solid black;
     background-color: black;
@@ -329,4 +313,30 @@ p.description {
     font-size: 18px;
     text-align: center;
     width: 100%;
+}
+
+.description {
+    color: black;
+    line-height: 165%;
+    text-align: justify;
+    width: 80%;
+    padding: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: black;
+    font-size: 20px;
+    margin: auto;
+}
+
+.aboutme {
+    width: 1000px;
+    float: center;
+}
+
+.whoami {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.me {
+    display: block;
 }
