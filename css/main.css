@@ -26,11 +26,12 @@ a.navbar-brand {
     border: 0;
 }
 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
 .form {
     padding: 100px;
-    width: 80%;
     float: center;
     margin: auto;
+}
 }
 
 input, textarea {
@@ -317,7 +318,7 @@ iframe {
 
 .description {
     color: black;
-    line-height: 165%;
+    line-height: 175%;
     text-align: justify;
     width: 80%;
     padding: 50px;
@@ -339,4 +340,7 @@ iframe {
 
 .me {
     display: block;
+    margin: auto;
+    padding-right: 150px;
+    padding-top: 100px;
 }
