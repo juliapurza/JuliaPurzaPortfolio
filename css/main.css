@@ -212,6 +212,11 @@ img.Logo {
     display: flex;
 }
 
+img.logocontact {
+    padding: 10px;
+    float: left;
+}
+
 .hoverp {
     color: #372883;
     animation:blinkingText 1.5s infinite;
