@@ -84,10 +84,6 @@ input, textarea {
     background-color: #d5d5d5;
 }
 
-img {
-    float: right;
-}
-
 h1 {
     font-size: 30px;
 }
@@ -223,8 +219,7 @@ iframe {
 }
 
 .logo {
-    float: left;
-    margin-left: 25px;
+    float: center;
 }
 
 .hoverp {
@@ -330,10 +325,9 @@ iframe {
 }
 
 .click {
-    font-size: 18px;
-    text-align: left;
+    font-size: 20px;
+    text-align: center;
     width: 100%;
-    padding-left: 35px;
 }
 
 .description {
