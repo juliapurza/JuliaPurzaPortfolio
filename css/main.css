@@ -93,24 +93,29 @@ h1 {
 }
 
 .assignmentlinks {
-    float: center;
-    margin: 0;
+    margin: auto;
+    float: left;
+    padding-left: 25px;
 }
 
 .dusty {
     padding: 10px;
+    float: center;
 }
 
-.lavendar {
+.lavender {
     padding: 10px;
+    float: center;
 }
 
 .dusty2 {
     padding: 10px;
+    float: center;
 }
 
-.lavendar2 {
+.lavender2 {
     padding: 10px;
+    float: center;
 }
 
 footer {
@@ -326,8 +331,9 @@ iframe {
 
 .click {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     width: 100%;
+    padding-left: 35px;
 }
 
 .description {
