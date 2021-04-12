@@ -222,16 +222,26 @@ iframe {
     margin-left: 25px;
 }
 
-.hoverp:hover {
+.hoverp {
     color: #372883;
+    animation:blinkingText 1.5s infinite;
 }
 
-.hovery:hover {
+.hovery {
     color: #f5b133;
+    animation:blinkingText 1.5s infinite;
 }
 
-.hoverr:hover {
+.hoverr {
     color: #e93f34;
+    animation:blinkingText 1.5s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: #372883    }
+    49%{    color: #f5b133; }
+    60%{    color: #e93f34; }
+    100%{   color: #372883;    }
 }
 
 .contact {
