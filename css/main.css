@@ -235,7 +235,7 @@ iframe {
 .contact {
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .enjoy {
@@ -345,4 +345,17 @@ iframe {
     margin: auto;
     padding-right: 150px;
     padding-top: 100px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    padding-right: 50px;
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: grey;
+}
+
+.submit:hover {
+    font-weight: bolder;
 }
