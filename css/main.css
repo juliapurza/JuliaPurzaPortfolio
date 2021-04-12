@@ -121,6 +121,8 @@ footer {
     padding: 20px;
     border-top: 1px solid black;
     border-style: none;
+    bottom: 0;
+    position: relative;
 }
 
 h4 {
@@ -358,4 +360,16 @@ iframe {
 
 .submit:hover {
     font-weight: bolder;
+}
+
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], .about .navbar-inverse .navbar-nav > li > a[href="about.html"], .index .navbar-inverse a.navbar-brand[href="."] {
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: black;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: grey;
 }
