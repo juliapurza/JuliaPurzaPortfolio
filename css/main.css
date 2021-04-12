@@ -372,7 +372,7 @@ iframe {
     font-weight: bolder;
 }
 
-.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], .about .navbar-inverse .navbar-nav > li > a[href="about.html"], .index .navbar-inverse a.navbar-brand[href="."] {
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], .about .navbar-inverse .navbar-nav > li > a[href="about.html"] {
     font-size: 16px;
 }
 
@@ -383,3 +383,18 @@ iframe {
 .navbar-inverse .navbar-brand:hover {
     color: grey;
 }
+
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"]:hover {
+    color: grey
+}
+
+.about .navbar-inverse .navbar-nav > li > a[href="about.html"]:hover {
+    color: grey;
+}
+
+.index .navbar-inverse a.navbar-brand[href="."]:hover {
+    color: grey;
+    font-size: 18px;
+    padding-left: -5px;
+}
+
