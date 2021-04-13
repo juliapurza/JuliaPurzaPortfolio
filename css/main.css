@@ -357,6 +357,14 @@ img.logocontact {
     font-weight: bolder;
 }
 
+.submit:visited {
+    font-weight: bolder;
+}
+
+.submit:active {
+    font-weight: bolder;
+}
+
 .contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], .about .navbar-inverse .navbar-nav > li > a[href="about.html"] {
     font-size: 16px;
 }
