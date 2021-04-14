@@ -92,13 +92,6 @@ h1 {
     font-size: 30px;
 }
 
-.assignmentlinks {
-    margin: auto;
-    float: center;
-    display: table-cell;
-    padding-left: 5px;
-}
-
 .dusty {
     padding: 40px;
 }
@@ -108,10 +101,6 @@ h1 {
 }
 
 .dusty2 {
-    padding: 40px;
-}
-
-.lavender2 {
     padding: 40px;
 }
 
@@ -342,7 +331,7 @@ img.logocontact {
     text-align: center;
 }
 
-.me {
+img.me {
     display: block;
     margin: auto;
 }
@@ -404,6 +393,40 @@ img.logocontact {
     padding-top: 50px;
 }
 
-.graphicprojects {
+.assignmentlinks {
     float: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.flex-item {
+    width: 360px;
+    height: 270px;
+    color: white;
+}
+
+.img__wrap {
+    position: relative;
+}
+
+div {
+    display: block;
 }
