@@ -430,3 +430,14 @@ img.me {
 div {
     display: block;
 }
+
+@media screen and (max-device-width: 250px){
+img.BM {
+    padding: 25px;
+    float: center;
+}
+}
+
+.map {
+    text-align: center;
+}
