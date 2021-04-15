@@ -425,12 +425,19 @@ div {
 }
 
 @media screen and (max-device-width: 250px){
-img.BM {
+img {
     padding: 25px;
-    float: center;
+    vertical-align: middle;
 }
 }
 
 .map {
     text-align: center;
 }
+
+.pexplanation {
+    width: 50%;
+    font-size: 18px;
+    text-align: justify;
+}
+
