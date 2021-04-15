@@ -441,3 +441,11 @@ img {
     text-align: justify;
 }
 
+.graphiclinks {
+    margin-top: 0;
+}
+
+.abouticon {
+    float: right;
+    padding: 50px;
+}
