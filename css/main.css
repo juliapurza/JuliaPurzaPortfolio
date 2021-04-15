@@ -91,18 +91,6 @@ h1 {
     font-size: 30px;
 }
 
-.dusty {
-    padding: 40px;
-}
-
-.lavender {
-    padding: 40px;
-}
-
-.dusty2 {
-    padding: 40px;
-}
-
 footer {
     background-color: #d6d6d6;
     font-family: "Lato", sans-serif;
@@ -437,10 +425,6 @@ img {
     text-align: justify;
 }
 
-.graphiclinks {
-    margin-top: 0;
-}
-
 .abouticon {
     float: right;
     padding: 50px;
@@ -459,3 +443,36 @@ b {
 .logoabout {
     border-radius: 50%;
 }
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+  
+  /* Create 2 equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 25px;
+  }
+  
+  .column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 25px;
+  }
+  
+  /* Responsive layout - makes a 1 column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.JP {
+    background-color: white;
+}
+
