@@ -476,3 +476,25 @@ b {
     background-color: white;
 }
 
+.indexprojects {
+    padding: 25px;
+    border-radius: 10px;
+}
+
+img.indexprojects {
+    border-radius: 20%;
+}
+
+img.indexprojects:hover {
+    box-shadow: #000000;
+}
+
+.brief {
+    padding-left: 40px;
+    margin-left: 45px;
+}
+
+.intro {
+    padding-left: 20px;
+    margin-left: 25px;
+}
