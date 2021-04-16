@@ -154,10 +154,6 @@ p {
     color: #a396c7;
 }
 
-iframe {
-    border: 15px solid #96858f;
-}
-
 .h3work {
     text-align: center;
     font-size: 25px;
@@ -193,6 +189,10 @@ img.logocontact {
     padding: 10px;
     left: 0;
     position: absolute;
+}
+
+img.logocontact:hover {
+    border: 5px solid #D5D5D5;
 }
 
 .hoverp {
@@ -258,8 +258,16 @@ img.logocontact {
     float: center;
 }
 
+img.linkedin:hover {
+    border: 5px solid #D5D5D5;
+}
+
 .linkedin2 {
     float: left;
+}
+
+img.linkedin2:hover {
+    border: 5px solid #D5D5D5;
 }
 
 .myangle1 {
