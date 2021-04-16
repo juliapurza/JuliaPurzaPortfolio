@@ -411,7 +411,7 @@ div {
 
 @media screen and (max-device-width: 250px){
 img {
-    padding: 25px;
+    padding: 15px;
 }
 }
 
@@ -477,16 +477,19 @@ b {
 }
 
 .indexprojects {
-    padding: 25px;
+    padding: auto;
+    margin: 10px;
     border-radius: 10px;
 }
 
 img.indexprojects {
     border-radius: 20%;
+    margin: 10px;
+
 }
 
 img.indexprojects:hover {
-    box-shadow: #000000;
+    border: 10px solid #D5D5D5;
 }
 
 .brief {
