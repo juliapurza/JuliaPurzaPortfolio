@@ -301,12 +301,11 @@ img.linkedin2:hover {
     color: black;
     line-height: 175%;
     text-align: justify;
-    width: 75%;
+    width: 80%;
     font-family: "Lato", sans-serif;
     font-weight: black;
     font-size: 18px;
     margin: auto;
-    padding: 15px;
 }
 
 @media screen and (max-device-width: 375px){
