@@ -9,6 +9,7 @@
 
 body {
     margin: 10px;
+    font-size: 18px;
 }
 
 .navbar-collapse {
@@ -301,7 +302,7 @@ img.linkedin2:hover {
     color: black;
     line-height: 175%;
     text-align: justify;
-    width: 80%;
+    width: 90%;
     font-family: "Lato", sans-serif;
     font-weight: black;
     font-size: 18px;
