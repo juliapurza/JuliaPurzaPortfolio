@@ -544,12 +544,10 @@ a.projects2:hover {
     position: relative;
 }
 
-@media screen and (max-device-width: 250px){
 .prototype2 {
     position: relative;
 }
 
-@media screen and (max-device-width: 250px){
 .prototype3 {
     position: relative;
 }
