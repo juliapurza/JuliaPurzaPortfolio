@@ -552,3 +552,12 @@ a.projects2:hover {
     position: relative;
 }
 }
+
+.SDPstyle {
+    color: #a396c7;
+    font-weight: bolder;
+}
+
+.SDPstyle:hover {
+    text-decoration: none;
+}
