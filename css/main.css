@@ -85,9 +85,10 @@ input, textarea {
     width: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #9099a2;
+    background-color: #96858f;
     border-radius: 15px;
     border: 1px solid black;
+    color: white;
 }
 
 .background {
@@ -119,7 +120,7 @@ p {
 }
 
 .UX3 {
-    font-size: 22px;
+    font-size: 25px;
     color: black;
     text-align: center;
 }
@@ -591,4 +592,10 @@ img.SDP1and2 .onetwo {
     content: "";
     display: block;
     margin-bottom: 30px;
+}
+
+.checkout {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 15px;
 }
