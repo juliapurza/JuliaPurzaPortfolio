@@ -538,12 +538,10 @@ img.indexprojects:hover {
 
 a.projects1:hover {
     text-decoration: none;
-    color: #6d7993;
 }
 
 a.projects2:hover {
     text-decoration: none;
-    color: #96858F;
 }
 
 @media screen and (max-device-width: 250px){
@@ -567,4 +565,30 @@ a.projects2:hover {
 
 .SDPstyle:hover {
     text-decoration: none;
+}
+
+img.SDP1and2 .onetwo {
+    vertical-align: middle;
+}
+
+.first:after {
+    background-color: #6d7993;
+    bottom: -10px;
+    height: 3px;
+    width: 50px;
+    position: relative;
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+}
+
+.second:after {
+    background-color: #96858f;
+    bottom: -10px;
+    height: 3px;
+    width: 100px;
+    position: relative;
+    content: "";
+    display: block;
+    margin-bottom: 30px;
 }
