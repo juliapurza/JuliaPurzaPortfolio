@@ -16,7 +16,7 @@ module.exports = class extends Page {
     <body>
     ${new Header().render()}
     ${new Nav().render()}
-    ${this.requireMarked('pages/contact.md')}
+    ${this.requireMarked('pages/contact.html')}
     ${new Footer().render()}
     </body>
 </html>

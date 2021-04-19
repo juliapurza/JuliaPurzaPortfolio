@@ -1,8 +1,4 @@
 
-/* Heroku login
-Email: juliapurza@gmail.com
-Password: Horseriding-99 */
-
 {
     "type": "oauth2",
     "user": "juliapurza@gmail.com",
