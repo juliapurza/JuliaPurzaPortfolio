@@ -1,76 +1,135 @@
 <?php
-if (isset($_POST['Email'])) {
+// ***********************************************************
+// This file is part of a package from:
+// www.freecontactform.com
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "juliapurza@gmail.com";
-    $email_subject = "New Portfolio Website Message";
+// Free Version
+// March 2021
 
-    function problem($error)
-    {
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br><br>";
-        echo $error . "<br><br>";
-        echo "Please go back and fix these errors.<br><br>";
-        die();
-    }
+// You are free to use for your own use. 
+// You cannot resell, share or repackage in any way.
 
-    // validation expected data exists
-    if (
-        !isset($_POST['Name']) ||
-        !isset($_POST['Email']) ||
-        !isset($_POST['Message'])
-    ) {
-        problem('We are sorry, but there appears to be a problem with the form you submitted.');
-    }
+// Important legal notice:
+// You must retain the attribution to www.freecontactform.com 
+// If must be visible on the same page as the form.
+// Or switch to the Pro version without attribution/credit.
+// ***********************************************************
 
-    $name = $_POST['Name']; // required
-    $email = $_POST['Email']; // required
-    $message = $_POST['Message']; // required
 
-    $error_message = "";
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+// *********************
+// FORM FIELD VALIDATION
+// *********************
+$rules = array(
+  "Name" => array(
+    "required" => true,
+    "label" => "Your name",
+    "maxLength" => 60
+  ),
+  "Email" => array(
+    "required" => true,
+    "label" => "Your email address",
+    "maxLength" => 100,
+    "email" => true
+  ),
+  "Phone" => array(
+    "required" => false,
+    "label" => "Your phone number (optional)",
+    "maxLength" => 30
+  ),
+  "Message" => array(
+    "required" => true,
+    "label" => "Your message",
+    "maxLength" => 3000
+  )
+);
 
-    if (!preg_match($email_exp, $email)) {
-        $error_message .= 'The Email address you entered is not valid.<br>';
-    }
 
-    $string_exp = "/^[A-Za-z .'-]+$/";
+// ******************
+// THANK YOU PAGE
+// ******************
+define('THANK_YOU_PAGE','');
 
-    if (!preg_match($string_exp, $name)) {
-        $error_message .= 'The name you entered is not valid.<br>';
-    }
 
-    if (strlen($message) < 2) {
-        $error_message .= 'The message you entered is not valid.<br>';
-    }
+// **************************
+// EMAIL TEMPLATES - INCOMING
+// **************************
+define('EMAIL_TEMPLATE_IN_HTML', 'contact.html');
 
-    if (strlen($error_message) > 0) {
-        problem($error_message);
-    }
 
-    $email_message = "Form details below.\n\n";
+// *******************************
+// EMAIL TEMPLATES - AUTO-RESPONSE
+// *******************************
+define('EMAIL_TEMPLATE_OUT_HTML', 'contact.html');
 
-    function clean_string($string)
-    {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
+define('SEND_AUTO_RESPONSE', 'YES');
+define('EMAIL_OUT_SUBJECT', '');
+define('EMAIL_OUT_TO', 'FIELD:Email');
+define('EMAIL_OUT_TO_NAME', 'FIELD:Name');
+define('EMAIL_OUT_FROM', '');
+define('EMAIL_OUT_FROM_NAME', '');
 
-    $email_message .= "Name: " . clean_string($name) . "\n";
-    $email_message .= "Email: " . clean_string($email) . "\n";
-    $email_message .= "Message: " . clean_string($message) . "\n";
 
-    // create email headers
-    $headers = 'From: ' . $email . "\r\n" .
-        'Reply-To: ' . $email . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);
-?>
+// *************
+// EMAIL MESSAGE
+// *************
+define('EMAIL_TO', 'juliapurza@gmail.com');
+define('EMAIL_TO_NAME', 'Julia Purza');
 
-    <!-- include your success message below -->
+define('EMAIL_TO_CC', '');
+define('EMAIL_TO_CC_NAME', '');
 
-    Thank you, your message has been sent!
+define('EMAIL_TO_BCC', '');
+define('EMAIL_TO_BCC_NAME', '');
 
-<?php
-}
-?>
+define('EMAIL_FROM', 'juliapurza@gmail.com');
+define('EMAIL_FROM_NAME', 'Julia Purza');
+
+define('EMAIL_REPLY_TO', 'FIELD:Email');
+define('EMAIL_REPLY_TO_NAME', 'FIELD:Email');
+
+define('EMAIL_SUBJECT_BEFORE', '');
+define('EMAIL_SUBJECT', "New Contact Form Message");
+define('EMAIL_SUBJECT_AFTER', '');
+
+
+
+// ***************
+// EMAIL TRANSPORT
+// ***************
+define('USE_SMTP', 'NO'); // YES or NO
+define('SMTP_HOST', '');
+define('SMTP_USER', '');
+define('SMTP_PASS', '');
+define('SMTP_AUTH', '');
+define('SMTP_SECURE', ''); // STARTTLS, SMTPS (port 465) or empty
+define('SMTP_PORT', '');
+define('SMTP_DEBUG', 'NO'); // YES or NO
+
+
+
+
+
+
+// *******************************
+//  DON'T CHANGE ANYTHING BELOW
+// *******************************
+
+// ***********
+// LICENSE KEY
+// ***********
+define('KEY', 'FREE');
+
+// ***********
+// LANGUAGE
+// ***********
+define('LANG','en');
+
+// **************************
+// VALIDATION CHECKS
+// **************************
+define('A', 'Rm9ybSBwcm92aWRlZCBieSB3d3cuZnJlZWNvbnRhY3Rmb3JtLmNvbQ==');
+define('B', 'Rm9ybSBwcm92aWRlZCBieSA8YSBocmVmPSJodHRwczovL3d3dy5mcmVlY29udGFjdGZvcm0uY29tIj5GcmVlQ29udGFjdEZvcm0uY29tPC9hPg==');
+define('C', 'Rm9ybSBwcm92aWRlZCBieSA8YSBocmVmPSJodHRwczovL3d3dy5mcmVlY29udGFjdGZvcm0uY29tIiB0YXJnZXQ9Il9ibGFuayI+RnJlZUNvbnRhY3RGb3JtLmNvbTwvYT4=');
+define('D', 'Y29uZ3JhdHVsYXRpb25zIGZvciBiZWluZyBjbGV2ZXIh');
+define('E', 'OGZlR3dSYkh3MjhGbg==');
+define('F', 'RlJFRQ==');
