@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'juliapurza@gmail.com';//<-----Put Your email address here.
+$myemail = 'juliapurza@gmail.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -38,8 +38,6 @@ $headers = "From: $myemail\n";
 $headers .= "Reply-To: $email_address";
 
 mail($to,$email_subject,$email_body,$headers);
-
-//redirect to the 'thank you' page
 
 header('Location: contact-form-thank-you.html');
 

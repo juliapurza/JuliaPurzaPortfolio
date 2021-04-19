@@ -70,7 +70,7 @@ input, textarea {
 
 .message {
     background-color: #d5d5d5;
-    width: 350px;
+    width: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 25px;
@@ -598,4 +598,10 @@ img.SDP1and2 .onetwo {
     text-align: center;
     font-size: 22px;
     padding-top: 15px;
+}
+
+.thank-you {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
 }
