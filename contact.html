@@ -31,33 +31,24 @@
 
 <a href="index.html"><img class="logocontact" src="img/Smallerlogo.png" height="100" width="100"></a>
 
-<form id="frmContact" action="" method="post">
-    <div id="mail-status"></div>
-    <div class="contact-row column-right">
-        <label style="padding-top: 20px;">Name</label> <span
-            id="userName-info" class="info"></span><br /> <input
-            type="text" name="userName" id="userName"
-            class="demoInputBox">
+
+<div class="fcf-form-group">
+    <label for="Email" class="fcf-label">Your email address</label>
+    <div class="fcf-input-group">
+        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
     </div>
-    <div class="contact-row column-right">
-        <label>Email</label> <span id="userEmail-info" class="info"></span><br />
-        <input type="text" name="userEmail" id="userEmail"
-            class="demoInputBox">
+</div>
+
+<div class="fcf-form-group">
+    <label for="Message" class="fcf-label">Your message</label>
+    <div class="fcf-input-group">
+        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
     </div>
-    <div class="contact-row">
-        <label>Phone</label> <span id="subject-info" class="info"></span><br />
-        <input type="text" name="subject" id="subject"
-            class="demoInputBox">
-    </div>
-    <div>
-        <label>Message</label> <span id="content-info" class="info"></span><br />
-        <textarea name="content" id="content" class="demoInputBox"
-            rows="3"></textarea>
-    </div>
-    <div>
-        <input type="submit" value="Send" class="btnAction" />
-    </div>
-</form>
+</div>
+
+<div class="fcf-form-group">
+    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
