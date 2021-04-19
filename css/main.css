@@ -568,8 +568,10 @@ a.projects2:hover {
     text-decoration: none;
 }
 
+@media screen and (max-device-width: 250px){
 img.SDP1and2 .onetwo {
     vertical-align: middle;
+}
 }
 
 .onetwo:hover {
@@ -578,7 +580,7 @@ img.SDP1and2 .onetwo {
 }
 
 .onetwo {
-    border-radius: 25%;
+    border-radius: 20%;
 }
 
 .first:after {
@@ -629,8 +631,8 @@ img.codegif {
 @-webkit-keyframes blinker {
     0%{     color: #000;    }
     49%{    color: #000; }
-    60%{    color: #96858F; }
-    99%{    color: #96858F;  }
+    60%{    color: white; }
+    99%{    color: #000;  }
     100%{   color: #000;    }
   }
   
@@ -638,5 +640,5 @@ img.codegif {
     -webkit-animation-name: blinker;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: cubic-bezier(.5, .5, .5, .5);
-    -webkit-animation-duration: 1.2s;
+    -webkit-animation-duration: 1.5s;
   }
