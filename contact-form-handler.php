@@ -1,5 +1,5 @@
 <?php
-$errors = 'error';
+$errors = '';
 $myemail = 'juliapurza@gmail.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
