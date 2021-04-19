@@ -606,3 +606,28 @@ img.SDP1and2 .onetwo {
     padding-top: 50px;
 }
 
+img.codegif {
+    float: center;
+    margin: auto;
+    display: block;
+}
+
+.please {
+    font-size: 18px;
+    text-align: center;
+}
+
+@-webkit-keyframes blinker {
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: #96858F; }
+    99%{    color: #96858F;  }
+    100%{   color: #000;    }
+  }
+  
+  .blink {
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(.5, .5, .5, .5);
+    -webkit-animation-duration: 1.2s;
+  }
