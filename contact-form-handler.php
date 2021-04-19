@@ -1,11 +1,9 @@
 <?php
-$errors = '';
+$errors = 'error';
 $myemail = 'juliapurza@gmail.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
-
-   if($_POST['send']){ }
 
    {
     $errors .= "\n Error: all fields are required";
