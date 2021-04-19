@@ -26,7 +26,7 @@ if( empty($errors))
 
 {
 
-$to = $myemail;
+$to = 'juliapurza@gmail.com';
 
 $email_subject = "Contact form submission: $name";
 
