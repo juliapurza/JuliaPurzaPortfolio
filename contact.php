@@ -1,24 +1,28 @@
 <?php
-if(!empty($_POST["send"])) {
-	$name = $_POST["userName"];
-	$email = $_POST["userEmail"];
-	$subject = $_POST["subject"];
-	$content = $_POST["content"];
+require('phpmailer/class.phpmailer.php');
 
-	$toEmail = "juliapurza@gmail.com";
-	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
-	if(mail($toEmail, $subject, $content, $mailHeaders)) {
-	    $message = "Your contact information is received successfully.";
-	    $type = "success";
-	}
-}
-require_once "contact-view.php";
-?>
+$mail = new PHPMailer();
+$mail->IsSMTP();
+$mail->SMTPDebug = 0;
+$mail->SMTPAuth = TRUE;
+$mail->SMTPSecure = "tls";
+$mail->Port     = 587;  
+$mail->Username = "Your SMTP UserName";
+$mail->Password = "Your SMTP Password";
+$mail->Host     = "Your SMTP Host";
+$mail->Mailer   = "smtp";
+$mail->SetFrom($_POST["userEmail"], $_POST["userName"]);
+$mail->AddReplyTo($_POST["userEmail"], $_POST["userName"]);
+$mail->AddAddress("recipient address");	
+$mail->Subject = $_POST["subject"];
+$mail->WordWrap   = 80;
+$mail->MsgHTML($_POST["content"]);
 
-<?php
-$conn = mysqli_connect("localhost", "root", "test", "blog_samples") or die("Connection Error: " . mysqli_error($conn));
-mysqli_query($conn, "INSERT INTO tblcontact (user_name, user_email,subject,content) VALUES ('" . $name. "', '" . $email. "','" . $subject. "','" . $content. "')");
-$insert_id = mysqli_insert_id($conn);
-if(!empty($insert_id)) {
-$message = "Your contact information is saved successfully";}
+$mail->IsHTML(true);
+
+if(!$mail->Send()) {
+	echo "<p class='error'>Problem in Sending Mail.</p>";
+} else {
+	echo "<p class='success'>Contact Mail Sent.</p>";
+}	
 ?>
