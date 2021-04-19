@@ -572,6 +572,15 @@ img.SDP1and2 .onetwo {
     vertical-align: middle;
 }
 
+.onetwo:hover {
+    border: 2px solid white;
+    border: 5px dotted black;
+}
+
+.onetwo {
+    border-radius: 25%;
+}
+
 .first:after {
     background-color: #6d7993;
     bottom: -10px;
