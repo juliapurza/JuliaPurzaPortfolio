@@ -120,9 +120,11 @@ p {
 }
 
 .UX3 {
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     text-align: center;
+    font-family: "Menlo";
+    font-weight: bolder;
 }
 
 .passionate {
@@ -502,7 +504,7 @@ h2 {
 }
 
 img.indexprojects {
-    border-radius: 25%;
+    border-radius: 15%;
     margin: 10px;
 
 }
@@ -603,12 +605,6 @@ img.SDP1and2 .onetwo {
     content: "";
     display: block;
     margin-bottom: 30px;
-}
-
-.checkout {
-    text-align: center;
-    font-size: 22px;
-    padding-top: 15px;
 }
 
 .thank-you {
