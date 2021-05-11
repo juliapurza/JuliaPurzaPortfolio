@@ -570,15 +570,8 @@ a.projects2:hover {
     text-decoration: none;
 }
 
-@media screen and (max-device-width: 250px){
-img.SDP1and2 .onetwo {
-    vertical-align: middle;
-}
-}
-
 .onetwo:hover {
     border: 2px solid white;
-    border: 4px dotted black;
 }
 
 .onetwo {
