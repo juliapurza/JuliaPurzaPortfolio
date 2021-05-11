@@ -644,3 +644,11 @@ img.codegif {
       display: block;
       margin: auto;
   }
+
+  .line {
+      text-align: center;
+  }
+
+  .navlogo {
+      float: left;
+  }
