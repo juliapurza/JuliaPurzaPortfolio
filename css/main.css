@@ -25,6 +25,12 @@ body {
 a.navbar-brand {
     background-color: white;
     color: black;
+    font-size: 25px !important;
+}
+
+a.navbar-brand:hover {
+    text-decoration: none !important;
+    color: black !important;
 }
 
 .navbar-inverse {
@@ -501,6 +507,7 @@ h2 {
     padding: auto;
     margin: 10px;
     border-radius: 10px;
+    border-bottom: 7px solid rgb(174, 174, 174);
 }
 
 img.indexprojects {
