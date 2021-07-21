@@ -26,11 +26,17 @@ a.navbar-brand {
     background-color: white;
     color: black;
     font-size: 25px !important;
+    transition: 0.5s ease;
+	border: 2px solid white;
 }
 
 a.navbar-brand:hover {
     text-decoration: none !important;
     color: black !important;
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97);
+    transition: 0.5s ease;
 }
 
 .navbar-inverse {
@@ -339,12 +345,30 @@ img.linkedin2:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    padding-right: 50px;
+    padding-right: 30px;
     color: black;
+    transition: 0.5s ease;
+	border: 2px solid white;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: grey;
+    color: black;
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 0.5s ease;
+}
+
+.nav>li>a>img{
+    transition: 0.5s ease;
+	border: 2px solid white;
+}
+
+.nav>li>a>img:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 0.5s ease;
 }
 
 .submit:hover {
@@ -415,7 +439,7 @@ img.linkedin2:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .flex-item {
@@ -507,7 +531,7 @@ h2 {
     padding: auto;
     margin: 10px;
     border-radius: 10px;
-    border-bottom: 7px solid rgb(174, 174, 174);
+    border-bottom: 5px solid rgb(162, 162, 162);
 }
 
 img.indexprojects {
@@ -517,7 +541,7 @@ img.indexprojects {
 }
 
 img.indexprojects:hover {
-    border: 2px solid white;
+    border-bottom: 3px solid rgb(181, 180, 180);
 }
 
 .brief {
@@ -660,14 +684,3 @@ img.codegif {
       float: left;
   }
 
-  .linkedinicon:hover {
-      opacity: 40%;
-  }
-
-  .emailicon:hover {
-    opacity: 40%;
-}
-
-  .linkedinicon .emailicon {
-    padding-top: 5px;
-  }
