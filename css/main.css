@@ -654,9 +654,13 @@ img.codegif {
   }
 
   .linkedinicon:hover {
-    
+      opacity: 40%;
   }
 
   .emailicon:hover {
+    opacity: 40%;
+}
 
+  .linkedinicon .emailicon {
+    padding-top: 5px;
   }
