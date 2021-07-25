@@ -429,7 +429,7 @@ img.linkedin2:hover {
 }
 
 .flex-container {
-    padding: 0;
+    padding: 25px;
     margin: 0;
     list-style: none;
     display: -webkit-box;
