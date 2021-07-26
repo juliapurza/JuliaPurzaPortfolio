@@ -692,3 +692,10 @@ img.codegif {
   .navlogo {
       float: left;
   }
+
+  @media screen and (max-device-width: 375px){
+  .iframeicons {
+      padding: 15px;
+  }
+}
+
