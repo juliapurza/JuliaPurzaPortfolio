@@ -344,10 +344,6 @@ img.linkedin2:hover {
 }
 }
 
-.whoami {
-    text-align: center;
-}
-
 
 .navbar-inverse .navbar-nav>li>a {
     padding-right: 25px;
@@ -501,8 +497,10 @@ h2 {
 }
 
 .logoabout {
+    float: center !important;
     border-radius: 50% !important;
-    border: 5px double #96858f;
+    border: 1px solid #4c2b1d;
+    ;
 }
 
 .row2 {
