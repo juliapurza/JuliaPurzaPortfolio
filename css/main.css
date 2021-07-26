@@ -499,8 +499,6 @@ h2 {
 .logoabout {
     float: center !important;
     border-radius: 50% !important;
-    border: 1px solid #4c2b1d;
-    ;
 }
 
 .row2 {
@@ -715,4 +713,5 @@ img.codegif {
 .aboutimages:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+    border-radius: 15%;
 }
