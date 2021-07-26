@@ -501,7 +501,16 @@ h2 {
 }
 
 .logoabout {
-    border-radius: 50%;
+    border-radius: 75%;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.logoabout:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 
 .row2 {
