@@ -700,3 +700,9 @@ img.codegif {
   }
 }
 
+@media screen and (max-device-width: 375px){
+.icons {
+    float: left;
+}
+}
+
