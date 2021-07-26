@@ -368,6 +368,8 @@ img.linkedin2:hover {
 .nav>li>a>img{
     transition: 0.5s ease;
 	border: 2px solid white;
+    display: block;
+    position: relative;
 }
 
 .nav>li>a>img:hover {
