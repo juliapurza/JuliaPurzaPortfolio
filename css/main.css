@@ -696,6 +696,7 @@ img.codegif {
   @media screen and (max-device-width: 375px){
   .iframeicons {
       padding: 15px;
+      float: left;
   }
 }
 
