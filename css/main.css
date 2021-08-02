@@ -698,10 +698,10 @@ img.codegif {
 }
 }
 
-@media screen and (max-device-width: 250px){
-.aboutimages {
-    display: block;
-}
+@media only screen and (max-width: 480px) {
+    .aboutimages {
+    width: 100%;
+    }
 }
 
 
