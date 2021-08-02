@@ -698,6 +698,13 @@ img.codegif {
 }
 }
 
+@media screen and (max-device-width: 250px){
+.aboutimages {
+    display: block;
+}
+}
+
+
 .aboutimages {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
