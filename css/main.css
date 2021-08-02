@@ -711,3 +711,8 @@ img.codegif {
     border-radius: 15%;
 }
 
+.goBack {
+    border: none;
+    float: left;
+    padding-left: 20px;
+}
