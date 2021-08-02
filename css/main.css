@@ -685,11 +685,10 @@ img.codegif {
       float: left;
   }
 
-  @media screen and (max-device-width: 375px){
-  .iframeicons {
-      padding: 15px;
-      float: left;
-  }
+.iframeicons {
+    padding: 15px;
+    float: left;
+    width: 100%;
 }
 
 @media screen and (max-device-width: 375px){
@@ -704,7 +703,7 @@ img.codegif {
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     width: 100%;
-    
+
 }
 
 .aboutimages:hover {
