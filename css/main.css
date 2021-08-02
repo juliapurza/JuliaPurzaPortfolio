@@ -649,11 +649,6 @@ img.codegif {
     display: block;
 }
 
-.please {
-    font-size: 18px;
-    text-align: center;
-}
-
 @-webkit-keyframes blinker {
     0%{     color: #000;    }
     49%{    color: #000; }
@@ -715,3 +710,4 @@ img.codegif {
     filter: grayscale(0);
     border-radius: 15%;
 }
+
