@@ -685,10 +685,11 @@ img.codegif {
       float: left;
   }
 
-.iframeicons {
-    padding: 15px;
-    float: left;
-    width: 100%;
+  @media screen and (max-device-width: 375px){
+  .iframeicons {
+      padding: 15px;
+      float: left;
+  }
 }
 
 @media screen and (max-device-width: 375px){
@@ -697,13 +698,18 @@ img.codegif {
 }
 }
 
+@media screen and (max-device-width: 250px){
+.aboutimages {
+    display: block;
+}
+}
+
+
 .aboutimages {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    width: 100%;
-
 }
 
 .aboutimages:hover {
