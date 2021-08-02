@@ -112,7 +112,7 @@ input, textarea {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 footer {
@@ -714,5 +714,5 @@ img.codegif {
 .goBack {
     border: none;
     float: left;
-    padding-left: 20px;
+    padding-left: 25px;
 }
