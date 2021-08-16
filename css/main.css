@@ -569,14 +569,18 @@ img.indexprojects:hover {
     text-align: center;
 }
 
+@media screen and (max-device-width: 375px){
 .projects1 {
     color: black;
     text-align: center;
 }
+}
 
+@media screen and (max-device-width: 375px){
 .projects2 {
     color: black;
     text-align: center;
+}
 }
 
 a.projects1:hover {
