@@ -538,7 +538,7 @@ h2 {
     padding: auto;
     margin: 10px;
     border-radius: 10px;
-    border-bottom: 5px solid rgb(162, 162, 162);
+    border-bottom: 4px solid rgb(162, 162, 162);
 }
 
 img.indexprojects {
@@ -548,9 +548,17 @@ img.indexprojects {
 }
 
 @media screen and (max-device-width: 375px){
-    .onetwo {
+    img.onetwo {
         margin: auto;
         padding: 10px;
+    }
+
+    img.projects1 {
+        float: center;
+    }
+
+    img.projects2 {
+        float: center;
     }
 }
 
