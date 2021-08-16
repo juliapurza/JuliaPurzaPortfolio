@@ -622,6 +622,16 @@ a.projects2:hover {
     border-radius: 20%;
 }
 
+.first {
+
+}
+
+@media screen and (max-device-width: 375px){
+.second {
+    width: 500px;
+}
+}
+
 .first:after {
     background-color: #6d7993;
     bottom: -10px;
