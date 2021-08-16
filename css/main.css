@@ -663,9 +663,13 @@ a.projects2:hover {
 @media screen and (max-device-width: 375px){
 img.codegif {
     float: center;
+}
+}
+
+img.codegif {
+    float: center;
     margin: auto;
     display: block;
-}
 }
 
 @-webkit-keyframes blinker {
