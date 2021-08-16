@@ -650,10 +650,12 @@ a.projects2:hover {
     padding-top: 50px;
 }
 
+@media screen and (max-device-width: 375px){
 img.codegif {
     float: center;
     margin: auto;
     display: block;
+}
 }
 
 @-webkit-keyframes blinker {
