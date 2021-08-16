@@ -547,6 +547,12 @@ img.indexprojects {
 
 }
 
+@media screen and (max-device-width: 375px){
+    img.onetwo {
+        margin: auto;
+    }
+}
+
 img.indexprojects:hover {
     border-left: 2px solid white;
     border-right: 2px solid white;
