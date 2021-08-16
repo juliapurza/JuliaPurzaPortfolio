@@ -759,6 +759,7 @@ img.codegif {
     float: left;
     padding-left: 25px;
     transition: 0.5s ease;
+    padding-bottom: 10px;
 }
 
 .goBack:hover {
