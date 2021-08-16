@@ -791,3 +791,21 @@ img.codegif {
     float: left;
 }
 }
+
+@media screen and (max-device-width: 250px){
+.coupons {
+    float: left;
+}
+
+.popups {
+    float: left;
+}
+
+.highbudget {
+    float: left;
+}
+
+.lowbudget {
+    float: left;
+}
+}
