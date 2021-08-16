@@ -550,6 +550,7 @@ img.indexprojects {
 @media screen and (max-device-width: 375px){
     .onetwo {
         margin: auto;
+        padding: 10px;
     }
 }
 
