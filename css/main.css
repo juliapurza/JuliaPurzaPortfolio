@@ -31,15 +31,11 @@ a.navbar-brand {
     color: black !important;
     font-size: 25px !important;
     transition: 0.5s ease;
-	border: 2px solid white;
 }
 
 a.navbar-brand:hover {
     text-decoration: none !important;
     color: #96858f !important;
-    -webkit-transform: scale(0.97);
-    -ms-transform: scale(0.97);
-    transform: scale(0.97);
     transition: 0.5s ease;
 }
 
@@ -754,7 +750,7 @@ img.codegif {
 }
 
 .goBack:hover {
-    color: #6d7993;
+    color: grey;
     transition: 0.5s ease;
 }
 
