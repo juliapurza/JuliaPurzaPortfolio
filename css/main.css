@@ -757,7 +757,7 @@ img.codegif {
 .goBack:hover {
     color: #6d7993;
     transition: 0.5s ease;
-    border-left: 1px solid #6d7993;
+}
 
 .comingfall2021 {
     text-align: center;
