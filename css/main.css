@@ -553,11 +553,11 @@ img.indexprojects {
         padding: 10px;
     }
 
-    img.projects1 {
+    .projects1 {
         float: center;
     }
 
-    img.projects2 {
+    .projects2 {
         float: center;
     }
 }
