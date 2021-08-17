@@ -809,3 +809,9 @@ img.codegif {
     float: left;
 }
 }
+
+.wrspclogo {
+    float: center;
+    display: block;
+    margin: auto;
+}
