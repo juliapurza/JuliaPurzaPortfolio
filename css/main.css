@@ -816,6 +816,13 @@ img.codegif {
     margin: auto;
 }
 
+.wrspclogo:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
 .figure {
     position: relative;
     max-width: 100%;
