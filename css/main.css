@@ -108,7 +108,7 @@ input, textarea {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 footer {
@@ -178,7 +178,7 @@ p {
 
 .h3work {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .h3work1 {
@@ -482,7 +482,7 @@ b {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 @media (max-width:375px) {
