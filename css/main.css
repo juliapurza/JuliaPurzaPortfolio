@@ -841,13 +841,5 @@ img.codegif {
 }
 
 #qrcodegif {
-    float: center;
-    display: block;
-    margin: auto;
-}
-
-@media screen and (max-device-width: 250px){
-#qrcodegif {
     display: none;
-}
 }
