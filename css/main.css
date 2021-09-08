@@ -43,7 +43,7 @@ a.navbar-brand:hover {
     border: 0;
 }
 
-@media screen and (max-device-width: 250px){
+@media screen and (max-device-width: 375px){
 .form {
     padding: 50px;
     float: center;
@@ -456,7 +456,7 @@ div {
     display: block;
 }
 
-@media screen and (max-device-width: 250px){
+@media screen and (max-device-width: 375px){
 img {
     padding: 15px;
 }
@@ -607,7 +607,7 @@ a.projects2:hover {
     text-decoration: none;
 }
 
-@media screen and (max-device-width: 250px){
+@media screen and (max-device-width: 375px){
 .prototype1 {
     position: relative;
 }
@@ -785,13 +785,13 @@ img.codegif {
     }
 }
 
-@media screen and (max-device-width: 250px){
+@media screen and (max-device-width: 375px){
 .iconsketch {
     float: left;
 }
 }
 
-@media screen and (max-device-width: 250px){
+@media screen and (max-device-width: 375px){
 .coupons {
     float: left;
 }
