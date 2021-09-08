@@ -849,6 +849,5 @@ img.codegif {
 @media screen and (max-device-width: 250px){
 #qrcodegif {
     display: none;
-    display: block;
 }
 }
