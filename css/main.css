@@ -852,3 +852,16 @@ img.codegif {
 #qrcodegif {
     display: none;
 }
+
+.BIAiframe {
+    float: center;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-device-width: 375px){
+    .BIAiframe {
+        height: 100%;
+        width: 100%;
+    }
+}
