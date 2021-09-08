@@ -782,6 +782,8 @@ img.codegif {
 @media only screen and (max-width: 480px) {
     .poster {
         float: left;
+        width: 100%;
+        height: 100%;
     }
 }
 
