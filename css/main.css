@@ -787,6 +787,13 @@ img.codegif {
     }
 }
 
+@media only screen and (max-width: 480px) {
+.UXDposter {
+    width: 75%;
+    height: 75%;
+}
+}
+
 @media screen and (max-device-width: 375px){
 .iconsketch {
     float: left;
