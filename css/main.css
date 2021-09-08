@@ -861,7 +861,16 @@ img.codegif {
 
 @media screen and (max-device-width: 375px){
     .BIAiframe {
-        height: 100%;
-        width: 100%;
+        display: none;
+    }
+}
+
+.clickheremobile {
+    display: none;
+}
+
+@media screen and (max-device-width: 375px){
+    .clickheremobile {
+        float: left;
     }
 }
