@@ -839,3 +839,15 @@ img.codegif {
 .figure:hover img.image-hover {
   opacity: 1;
 }
+
+#qrcodegif {
+    float: center;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-device-width: 250px){
+#qrcodegif {
+    display: none;
+}
+}
