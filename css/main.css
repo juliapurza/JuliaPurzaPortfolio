@@ -853,26 +853,9 @@ img.codegif {
     display: none;
 }
 
-#BIAiframe {
-    display: block;
-}
-
-#clickheremobile {
-    display: none;
-}
-
-@media screen and (max-device-width: 375px){
-    #BIAiframe {
-        display: none;
-    }
-
-    #clickheremobile {
-        display: block;
-    }
-}
-
 .BIAiframe1 {
     float: center;
     display: block;
     margin: auto;
 }
+
