@@ -857,5 +857,7 @@ img.codegif {
     float: center;
     display: block;
     margin: auto;
+    height: 100%;
+    width: 100%;
 }
 
