@@ -859,3 +859,6 @@ img.codegif {
     margin: auto;
 }
 
+p {
+    line-height: 125%;
+}
