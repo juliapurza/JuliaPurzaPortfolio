@@ -875,3 +875,9 @@ img.codegif {
         display: block;
     }
 }
+
+.BIAiframe1 {
+    float: center;
+    display: block;
+    margin: auto;
+}
