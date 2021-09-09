@@ -538,13 +538,11 @@ h2 {
     padding: auto;
     margin: 10px;
     border-radius: 10px;
-    border-bottom: 4px solid rgb(162, 162, 162);
 }
 
 img.indexprojects {
     border-radius: 15%;
     margin: 10px;
-
 }
 
 @media screen and (max-device-width: 375px){
@@ -563,10 +561,10 @@ img.indexprojects {
 }
 
 img.indexprojects:hover {
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-top: 2px solid white;
-    border-bottom: 3px solid rgb(181, 180, 180);
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 .brief {
