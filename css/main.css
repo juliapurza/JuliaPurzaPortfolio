@@ -854,15 +854,7 @@ img.codegif {
 }
 
 #BIAiframe {
-    float: center;
     display: block;
-    margin: auto;
-}
-
-@media screen and (max-device-width: 375px){
-    #BIAiframe {
-        display: none;
-    }
 }
 
 #clickheremobile {
@@ -870,8 +862,11 @@ img.codegif {
 }
 
 @media screen and (max-device-width: 375px){
+    #BIAiframe {
+        display: none;
+    }
+
     #clickheremobile {
-        float: left;
         display: block;
     }
 }
