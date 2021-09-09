@@ -872,5 +872,6 @@ img.codegif {
 @media screen and (max-device-width: 375px){
     .clickheremobile {
         float: left;
+        display: block;
     }
 }
