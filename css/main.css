@@ -874,3 +874,13 @@ p {
         display: none !important;
     }
 }
+
+.unicefphotomobile {
+    display: none;
+}
+
+@media screen and (max-device-width: 375px){
+    .unicefphotomobile {
+        display: block;
+    }
+}
