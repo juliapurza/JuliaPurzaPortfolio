@@ -860,3 +860,21 @@ img.codegif {
 p {
     line-height: 125%;
 }
+
+.unicefphoto {
+    float: center;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+@media screen and (max-device-width: 375px){
+    .unicefphoto {
+        float: center;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+}
