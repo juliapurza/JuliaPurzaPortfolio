@@ -869,6 +869,6 @@ p {
 
 @media screen and (max-device-width: 375px){
     .unicefphoto {
-        display: none !important;
+        visibility: hidden !important;
     }
 }
