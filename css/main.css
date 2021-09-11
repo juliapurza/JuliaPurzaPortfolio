@@ -886,3 +886,10 @@ p {
     height: 100% !important;
 }
 }
+
+@media screen and (max-device-width: 375px){
+    .medfi {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    }
