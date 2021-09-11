@@ -869,6 +869,7 @@ p {
 
 @media screen and (max-device-width: 375px){
     .unicefphoto {
-        visibility: hidden !important;
+        display: none !important;
     }
 }
+
