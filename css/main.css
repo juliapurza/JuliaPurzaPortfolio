@@ -825,8 +825,8 @@ img.codegif {
 .wrspclogo:hover {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .figure {
