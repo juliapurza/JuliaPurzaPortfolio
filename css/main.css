@@ -493,6 +493,8 @@ h2 {
 
 .logoabout {
     float: center !important;
+    display: block;
+    margin: auto;
     border-radius: 50% !important;
 }
 
@@ -916,7 +918,6 @@ p {
     color: white;
     font-size: 18px;
     font-weight: lighter;
-    margin-left: 25px;
 }
 
 .frontpagebuttons:hover {
@@ -928,4 +929,18 @@ p {
     text-align: center !important;
     display: block !important;
     margin: auto !important;
+}
+
+.mainpagephoto {
+    float: center !important;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.line {
+    color: 2px solid grey;
+    width: 80%;
+    text-align: center;
+    display: block;
 }
