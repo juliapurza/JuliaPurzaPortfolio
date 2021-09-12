@@ -875,35 +875,35 @@ p {
 
 @media screen and (max-device-width: 375px){
 .brainstormingpics {
-    width: 100% !important;
-    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 }
 
 @media screen and (max-device-width: 375px){
 .lowfi {
-    width: 100% !important;
-    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 }
 
 @media screen and (max-device-width: 375px){
     .medfi {
-        width: 100% !important;
-        height: 100% !important;
+        max-width: 100% !important;
+        max-height: 100% !important;
     }
     }
 
 @media screen and (max-device-width: 375px){
 .hifipro {
-    height: 100% !important;
-    width: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
 }
 }
 
 @media screen and (max-device-width: 375px){
 .questions {
-    height: 100% !important;
-    width: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
 }
 }
