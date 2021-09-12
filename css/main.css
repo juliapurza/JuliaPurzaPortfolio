@@ -908,3 +908,24 @@ p {
 }
 }
 
+.frontpagebuttons {
+    border-radius: 10%;
+    border: 1px solid grey;
+    background-color: #6d7993;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+
+.frontpagebuttons:hover {
+    background-color: #96858f;
+    border: 1px solid white;
+}
+
+.divbutton {
+    text-align: center !important;
+    display: block !important;
+    margin: auto !important;
+}
