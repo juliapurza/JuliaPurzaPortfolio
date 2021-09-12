@@ -537,11 +537,10 @@ h2 {
 .indexprojects {
     padding: auto;
     margin: 10px;
-    border-radius: 10px;
+    padding: 10px;
 }
 
 img.indexprojects {
-    border-radius: 15%;
     margin: 10px;
 }
 
@@ -561,10 +560,10 @@ img.indexprojects {
 }
 
 img.indexprojects:hover {
-    border-left: 3px solid white;
-    border-right: 3px solid white;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .brief {
@@ -907,3 +906,4 @@ p {
     max-width: 100% !important;
 }
 }
+
