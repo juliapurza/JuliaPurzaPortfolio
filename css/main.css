@@ -900,3 +900,10 @@ p {
     width: 100% !important;
 }
 }
+
+@media screen and (max-device-width: 375px){
+.questions {
+    height: 100% !important;
+    width: 100% !important;
+}
+}
