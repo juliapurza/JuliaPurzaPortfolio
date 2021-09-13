@@ -745,6 +745,7 @@ img.codegif {
 @media only screen and (max-width: 480px) {
     .aboutimages {
     width: 100%;
+    height: 100%;
     }
 }
 
