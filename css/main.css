@@ -586,17 +586,17 @@ img.indexprojects:hover {
 }
 
 @media screen and (max-device-width: 375px){
-.projects1 {
-    color: black;
-    text-align: center;
-}
+    .projects1 {
+        color: black;
+        text-align: center;
+    }
 }
 
 @media screen and (max-device-width: 375px){
-.projects2 {
-    color: black;
-    text-align: center;
-}
+    .projects2 {
+        color: black;
+        text-align: center;
+    }
 }
 
 a.projects1:hover {
@@ -635,10 +635,6 @@ a.projects2:hover {
 
 .onetwo {
     border-radius: 20%;
-}
-
-.first {
-
 }
 
 @media screen and (max-device-width: 375px){
@@ -748,7 +744,6 @@ img.codegif {
     height: 100%;
     }
 }
-
 
 .aboutimages {
     -webkit-filter: grayscale(100%);
