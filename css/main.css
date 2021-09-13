@@ -912,7 +912,7 @@ p {
 }
 
 .frontpagebuttons {
-    border-radius: 10%;
+    border-radius: 10px;
     border: 1px solid #6d7993;
     background-color: #6d7993;
     padding: 10px;
