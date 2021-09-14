@@ -873,36 +873,51 @@ p {
 
 @media screen and (max-device-width: 390px){
 .brainstormingpics {
-    max-width: 100% !important;
-    max-height: 100% !important;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 }
 
 @media screen and (max-device-width: 390px){
 .lowfi {
-    max-width: 100% !important;
-    max-height: 100% !important;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 }
 
 @media screen and (max-device-width: 390px){
     .medfi {
-        max-width: 100% !important;
-        max-height: 100% !important;
+        max-width: 100%;
+        min-width: 300px;
+        height: auto;
+        display: block;
+        margin: auto;
     }
     }
 
 @media screen and (max-device-width: 390px){
 .hifipro {
-    max-height: 100% !important;
-    max-width: 100% !important;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 }
 
 @media screen and (max-device-width: 390px){
 .questions {
-    max-height: 100% !important;
-    max-width: 100% !important;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 }
 
@@ -975,7 +990,7 @@ html {
 
 @media screen and (max-device-width: 390px){
     .softwareicons {
-      width: 40px !important;
-     height: 40px !important;
+        width: 40px !important;
+        height: 40px !important;
     }
 }
