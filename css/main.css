@@ -43,7 +43,7 @@ a.navbar-brand:hover {
     border: 0;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .form {
     padding: 50px;
     float: center;
@@ -330,7 +330,7 @@ img.linkedin2:hover {
     margin: auto;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .aboutme {
     width: 75%;
     font-size: 25px;
@@ -456,7 +456,7 @@ div {
     display: block;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 img {
     padding: 15px;
 }
@@ -530,7 +530,7 @@ h2 {
     background-color: white;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .indexprojects {
     float: center;
 }
@@ -547,7 +547,7 @@ img.indexprojects {
     margin: 10px;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
     img.onetwo {
         margin: auto;
         padding: 10px;
@@ -585,14 +585,14 @@ img.indexprojects:hover {
     text-align: center;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
     .projects1 {
         color: black;
         text-align: center;
     }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
     .projects2 {
         color: black;
         text-align: center;
@@ -607,7 +607,7 @@ a.projects2:hover {
     text-decoration: none;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .prototype1 {
     position: relative;
 }
@@ -637,7 +637,7 @@ a.projects2:hover {
     border-radius: 20%;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .second {
     width: 600px;
 }
@@ -671,7 +671,7 @@ a.projects2:hover {
     padding-top: 50px;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 img.codegif {
     float: center;
 }
@@ -719,26 +719,26 @@ img.codegif {
       float: left;
   }
 
-  @media screen and (max-device-width: 500px){
+  @media screen and (max-device-width: 390px){
   .iframeicons {
       padding: 15px;
       float: left;
   }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .iframeSDP1 {
     float: left;
 }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .icons {
     float: left;
 }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 390px) {
     .aboutimages {
     width: 100%;
     height: 100%;
@@ -775,7 +775,7 @@ img.codegif {
     text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 390px) {
     .poster {
         float: left;
         width: 100%;
@@ -783,20 +783,20 @@ img.codegif {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 390px) {
 .UXDposter {
     width: 100%;
     height: 100%;
 }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .iconsketch {
     float: left;
 }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .coupons {
     float: left;
 }
@@ -865,41 +865,41 @@ p {
     margin: auto;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
     .unicefphoto {
         display: none !important;
     }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .brainstormingpics {
     max-width: 100% !important;
     max-height: 100% !important;
 }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .lowfi {
     max-width: 100% !important;
     max-height: 100% !important;
 }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
     .medfi {
         max-width: 100% !important;
         max-height: 100% !important;
     }
     }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .hifipro {
     max-height: 100% !important;
     max-width: 100% !important;
 }
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
 .questions {
     max-height: 100% !important;
     max-width: 100% !important;
@@ -919,7 +919,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 390px){
     html {
         scroll-behavior: smooth;
     }
