@@ -915,8 +915,8 @@ p {
 
 @media screen and (max-device-width: 375px){
 .questions {
-    max-width: 100%;
-    min-width: 300px;
+    max-width: 75%;
+    min-width: 200px;
     height: auto;
     display: block;
     margin: auto;
