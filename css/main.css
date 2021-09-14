@@ -831,6 +831,7 @@ img.codegif {
     position: relative;
     max-width: 100%;
 }
+
 .figure img.image-hover {
   position: absolute;
   top: 0;
@@ -841,6 +842,7 @@ img.codegif {
   opacity: 0;
   transition: opacity .2s;
 }
+
 .figure:hover img.image-hover {
   opacity: 1;
 }
