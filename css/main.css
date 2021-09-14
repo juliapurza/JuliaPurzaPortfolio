@@ -962,3 +962,10 @@ html {
   #myBtn:hover {
     background-color: #96858f;
   }
+
+@media screen and (max-device-width: 390px){
+    .researchpics{
+        width: 100%;
+        height: auto;
+    }
+}
