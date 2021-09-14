@@ -972,3 +972,10 @@ html {
         margin: auto;
     }
 }
+
+@media screen and (max-device-width: 390px){
+    .softwareicons {
+      width: 40px !important;
+     height: 40px !important;
+    }
+}
