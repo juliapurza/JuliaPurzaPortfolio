@@ -965,7 +965,8 @@ html {
 
 @media screen and (max-device-width: 390px){
     .researchpics{
-        width: 100%;
+        max-width: 100%;
+        min-width: 300px;
         height: auto;
     }
 }
