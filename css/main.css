@@ -43,7 +43,7 @@ a.navbar-brand:hover {
     border: 0;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .form {
     padding: 50px;
     float: center;
@@ -330,7 +330,7 @@ img.linkedin2:hover {
     margin: auto;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .aboutme {
     width: 75%;
     font-size: 25px;
@@ -456,7 +456,7 @@ div {
     display: block;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 img {
     padding: 15px;
 }
@@ -519,7 +519,7 @@ h2 {
   }
   
   /* Responsive layout - makes a 1 column-layout instead of four columns */
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 375px) {
     .column {
       flex: 100%;
       max-width: 100%;
@@ -530,7 +530,7 @@ h2 {
     background-color: white;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .indexprojects {
     float: center;
 }
@@ -547,7 +547,7 @@ img.indexprojects {
     margin: 10px;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     img.onetwo {
         margin: auto;
         padding: 10px;
@@ -585,14 +585,14 @@ img.indexprojects:hover {
     text-align: center;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     .projects1 {
         color: black;
         text-align: center;
     }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     .projects2 {
         color: black;
         text-align: center;
@@ -607,7 +607,7 @@ a.projects2:hover {
     text-decoration: none;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .prototype1 {
     position: relative;
 }
@@ -637,7 +637,7 @@ a.projects2:hover {
     border-radius: 20%;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .second {
     width: 600px;
 }
@@ -671,7 +671,7 @@ a.projects2:hover {
     padding-top: 50px;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 img.codegif {
     float: center;
 }
@@ -719,26 +719,26 @@ img.codegif {
       float: left;
   }
 
-  @media screen and (max-device-width: 390px){
+  @media screen and (max-device-width: 375px){
   .iframeicons {
       padding: 15px;
       float: left;
   }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .iframeSDP1 {
     float: left;
 }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .icons {
     float: left;
 }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 375px) {
     .aboutimages {
     width: 100%;
     height: 100%;
@@ -775,7 +775,7 @@ img.codegif {
     text-align: center;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 375px) {
     .poster {
         float: left;
         width: 100%;
@@ -783,20 +783,20 @@ img.codegif {
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 375px) {
 .UXDposter {
     width: 100%;
     height: 100%;
 }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .iconsketch {
     float: left;
 }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .coupons {
     float: left;
 }
@@ -865,13 +865,13 @@ p {
     margin: auto;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     .unicefphoto {
         display: none !important;
     }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .brainstormingpics {
     max-width: 100%;
     min-width: 300px;
@@ -881,7 +881,7 @@ p {
 }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .lowfi {
     max-width: 100%;
     min-width: 300px;
@@ -891,7 +891,7 @@ p {
 }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     .medfi {
         max-width: 100%;
         min-width: 300px;
@@ -901,7 +901,7 @@ p {
     }
     }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .hifipro {
     max-width: 100%;
     min-width: 300px;
@@ -911,7 +911,7 @@ p {
 }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
 .questions {
     max-width: 100%;
     min-width: 300px;
@@ -934,7 +934,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     html {
         scroll-behavior: smooth;
     }
@@ -978,7 +978,7 @@ html {
     background-color: #96858f;
   }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     .researchpics{
         max-width: 100%;
         min-width: 300px;
@@ -988,7 +988,7 @@ html {
     }
 }
 
-@media screen and (max-device-width: 390px){
+@media screen and (max-device-width: 375px){
     .softwareicons {
         width: 40px !important;
         height: 40px !important;
