@@ -927,11 +927,13 @@ p {
 }
 
 html {
+    overflow-y: scroll;
     scroll-behavior: smooth !important;
 }
 
 @media screen and (max-device-width: 375px){
     html {
+        overflow-y: scroll;
         scroll-behavior: smooth !important;
     }
 }
