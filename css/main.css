@@ -999,25 +999,25 @@ window.scroll {
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     img.thumbnailsketches {
         max-width: 100% !important;
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     img.palette {
         max-width: 100% !important;
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     img.logotext {
         max-width: 100% !important;
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     img.businesscards {
         max-width: 100% !important;
     }
