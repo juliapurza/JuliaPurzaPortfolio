@@ -993,32 +993,32 @@ window.scroll {
 }
 
 @media screen and (max-device-width: 375px){
-    .softwareicons {
+    img.softwareicons {
         width: 40px !important;
         height: 40px !important;
     }
 }
 
 @media screen and (max-device-width: 375px){
-    .thumbnailsketches {
+    img.thumbnailsketches {
         max-width: 100% !important;
     }
 }
 
 @media screen and (max-device-width: 375px){
-    .palette {
+    img.palette {
         max-width: 100% !important;
     }
 }
 
 @media screen and (max-device-width: 375px){
-    .logotext {
+    img.logotext {
         max-width: 100% !important;
     }
 }
 
 @media screen and (max-device-width: 375px){
-    .businesscards {
+    img.businesscards {
         max-width: 100% !important;
     }
 }
