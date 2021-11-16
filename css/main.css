@@ -787,9 +787,9 @@ img.codegif {
 }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
 .iconsketch {
-    float: left;
+    min-width: 100% !important;
 }
 }
 
