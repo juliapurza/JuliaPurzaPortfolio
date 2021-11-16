@@ -865,53 +865,33 @@ p {
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
 .brainstormingpics {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-    display: block;
-    margin: auto;
+    min-width: 100% !important;
 }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
 .lowfi {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-    display: block;
-    margin: auto;
+    min-width: 100% !important;
 }
 }
 
 @media screen and (max-device-width: 375px){
     .medfi {
-        max-width: 100%;
-        min-width: 300px;
-        height: auto;
-        display: block;
-        margin: auto;
+        min-width: 100% !important;
     }
     }
 
 @media screen and (max-device-width: 375px){
 .hifipro {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-    display: block;
-    margin: auto;
+    min-width: 75% !important;
 }
 }
 
 @media screen and (max-device-width: 375px){
 .questions {
-    max-width: 75%;
-    min-width: 200px;
-    height: auto;
-    display: block;
-    margin: auto;
+    min-width: 75% !important;
 }
 }
 
@@ -982,11 +962,7 @@ window.scroll {
 
 @media screen and (max-device-width: 375px){
     .researchpics{
-        max-width: 100%;
-        min-width: 300px;
-        height: auto;
-        display: block;
-        margin: auto;
+        min-width: 100% !important;
     }
 }
 
