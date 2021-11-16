@@ -959,7 +959,7 @@ window.scroll {
     background-color: #96858f;
   }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     .researchpics{
         min-width: 100% !important;
     }
