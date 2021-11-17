@@ -896,10 +896,10 @@ p {
 
 .frontpagebuttons {
     border-radius: 10px;
-    border: 1px solid #6d7993;
-    background-color: #6d7993;
+    border: 1px solid #5c1a34;
+    background-color: #5c1a34;
     padding: 10px;
-    color: white;
+    color: #ed9fb9;
     font-size: 18px;
 }
 
@@ -922,7 +922,8 @@ window.scroll {
 }
 
 .frontpagebuttons:hover {
-    background-color: #96858f;
+    background-color: #ed9fb9;
+    color: #5c1a34;
     border: 1px solid white;
 }
 
