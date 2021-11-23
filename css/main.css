@@ -320,7 +320,7 @@ img.linkedin2:hover {
 }
 
 .description {
-    color: black;
+    color: rgb(84, 84, 84);
     line-height: 175%;
     text-align: justify;
     width: 90%;
@@ -941,10 +941,11 @@ window.scroll {
 }
 
 .mainpagephoto {
-    float: center !important;
+    float: right !important;
+    margin-right: 75px !important;
     display: block;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 #myBtn {
@@ -1006,10 +1007,15 @@ window.scroll {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    margin-left: 65px;
+    align-items: left;
     height: 100%;
-  }
+}
+
+.button-wrapper {
+    margin-top: 50px;
+}
 
 .UIUX {
     padding: 15px;
@@ -1020,7 +1026,7 @@ window.scroll {
 }
 
 .UIUX {
-    background-color: #96858f;
+    background-color: #6d7993;
     color: white;
     border-bottom: 2px solid rgb(60, 60, 60);
     border-right: 2px solid rgb(60, 60, 60);
@@ -1030,13 +1036,13 @@ window.scroll {
 }
 
 .UIUX:hover {
-    background-color: #6d7993;
+    background-color: #96858f;
     color: white;
     border-radius: 10px;
 }
 
 .Graphic {
-    background-color: #96858f;
+    background-color: #6d7993;
     color: white;
     border-bottom: 2px solid rgb(60, 60, 60);
     border-right: 2px solid rgb(60, 60, 60);
@@ -1046,7 +1052,7 @@ window.scroll {
 }
 
 .Graphic:hover {
-    background-color: #6d7993;
+    background-color: #96858f;
     color: white;
     border-radius: 10px;
 }
@@ -1056,4 +1062,31 @@ window.scroll {
         float: center !important;
         margin: auto;
     }
+}
+
+p.pcontainer {
+    color: rgb(84, 84, 84);
+    padding: 30px;
+    width: 60%;
+    float: left !important;
+    margin-left: 50px !important;
+    text-align: justify;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.HI {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.HI2 {
+    font-size: 23px;
+    text-align: left;
+    margin-left: 75px;
 }
