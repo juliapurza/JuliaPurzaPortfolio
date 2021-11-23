@@ -943,6 +943,7 @@ window.scroll {
 .mainpagephoto {
     float: right !important;
     margin-right: 75px !important;
+    margin-top: -100px !important;
     display: block;
     margin: auto;
     border-radius: 50px;
@@ -1097,7 +1098,7 @@ p.pcontainer {
 @media screen and (max-device-width: 480px){
     .pcontainer{
         min-width: 100% !important;
-        float: left !important;
+        text-align: left !important;
     }
 }
 
