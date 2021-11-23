@@ -1073,13 +1073,6 @@ window.scroll {
     border-radius: 10px;
 }
 
-@media screen and (max-device-width: 480px){
-    .container {
-        float: center !important;
-        margin: auto;
-    }
-}
-
 p.pcontainer {
     color: rgb(84, 84, 84);
     padding: 30px;
