@@ -1098,6 +1098,20 @@ p.pcontainer {
     }
 }
 
+@media screen and (max-device-width: 480px){
+    .UIUX{
+        min-width: 100% !important;
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+    .Graphic{
+        min-width: 100% !important;
+        text-align: left !important;
+    }
+}
+
 .HI {
     font-size: 30px;
     text-align: left;
