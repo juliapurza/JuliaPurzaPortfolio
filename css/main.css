@@ -1022,27 +1022,31 @@ window.scroll {
 .UIUX {
     background-color: #96858f;
     color: white;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid rgb(60, 60, 60);
+    border-right: 2px solid rgb(60, 60, 60);
     border-top: 1px solid grey;
     border-left: 1px solid grey;
+    border-radius: 10px;
 }
 
 .UIUX:hover {
     background-color: #6d7993;
     color: white;
+    border-radius: 10px;
 }
 
 .Graphic {
     background-color: #96858f;
     color: white;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid rgb(60, 60, 60);
+    border-right: 2px solid rgb(60, 60, 60);
     border-top: 1px solid grey;
     border-left: 1px solid grey;
+    border-radius: 10px;
 }
 
 .Graphic:hover {
     background-color: #6d7993;
     color: white;
+    border-radius: 10px;
 }
