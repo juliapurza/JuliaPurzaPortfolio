@@ -1026,6 +1026,7 @@ window.scroll {
     .container{
         min-width: 90% !important;
         float: left !important;
+        margin-left: -65px !important;
     }
 }
 
@@ -1092,6 +1093,7 @@ p.pcontainer {
     .pcontainer{
         min-width: 100% !important;
         text-align: left !important;
+        margin-left: -50px !important;
     }
 }
 
