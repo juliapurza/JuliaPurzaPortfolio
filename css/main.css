@@ -1050,3 +1050,10 @@ window.scroll {
     color: white;
     border-radius: 10px;
 }
+
+@media screen and (max-device-width: 480px){
+    img.container {
+        float: center !important;
+        margin: auto;
+    }
+}
