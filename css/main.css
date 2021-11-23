@@ -948,6 +948,14 @@ window.scroll {
     border-radius: 50px;
 }
 
+@media screen and (max-device-width: 480px){
+    .mainpagephoto{
+        min-width: 100% !important;
+        float: center !important;
+    }
+}
+
+
 #myBtn {
     position: fixed;
     bottom: 20px;
@@ -1011,6 +1019,13 @@ window.scroll {
     margin-left: 65px;
     align-items: left;
     height: 100%;
+}
+
+@media screen and (max-device-width: 480px){
+    .container{
+        min-width: 90% !important;
+        float: left !important;
+    }
 }
 
 .button-wrapper {
@@ -1079,14 +1094,35 @@ p.pcontainer {
     margin: 0 auto;
 }
 
+@media screen and (max-device-width: 480px){
+    .pcontainer{
+        min-width: 100% !important;
+        float: center !important;
+    }
+}
+
 .HI {
     font-size: 30px;
     text-align: left;
     margin-left: 75px;
 }
 
+@media screen and (max-device-width: 480px){
+    .HI{
+        min-width: 100% !important;
+        float: center !important;
+    }
+}
+
 .HI2 {
     font-size: 23px;
     text-align: left;
     margin-left: 75px;
+}
+
+@media screen and (max-device-width: 480px){
+    .HI2{
+        min-width: 100% !important;
+        float: center !important;
+    }
 }
