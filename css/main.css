@@ -1052,7 +1052,7 @@ window.scroll {
 }
 
 @media screen and (max-device-width: 480px){
-    img.container {
+    .container {
         float: center !important;
         margin: auto;
     }
