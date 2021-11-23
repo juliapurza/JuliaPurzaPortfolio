@@ -950,7 +950,7 @@ window.scroll {
 }
 
 @media screen and (max-device-width: 480px){
-    .mainpagephoto{
+    img.mainpagephoto{
         min-width: 100% !important;
         float: center !important;
     }
