@@ -543,6 +543,14 @@ h2 {
     border-radius: 5%;
 }
 
+.indexprojectshomepage {
+    padding: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    float: center !important;
+}
+
 img.indexprojects {
     margin: 10px;
 }
@@ -994,4 +1002,47 @@ window.scroll {
     img.businesscards {
         width: 100% !important;
     }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+.UIUX {
+    padding: 15px;
+}
+
+.Graphic {
+    padding:15px;
+}
+
+.UIUX {
+    background-color: #96858f;
+    color: white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.UIUX:hover {
+    background-color: #6d7993;
+    color: white;
+}
+
+.Graphic {
+    background-color: #96858f;
+    color: white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.Graphic:hover {
+    background-color: #6d7993;
+    color: white;
 }
