@@ -951,7 +951,7 @@ window.scroll {
 
 @media screen and (max-device-width: 480px){
     img.mainpagephoto{
-        min-width: 100% !important;
+        min-width: 75% !important;
         float: center !important;
         margin-right: -75px!important;
         margin-top: 50px!important;
