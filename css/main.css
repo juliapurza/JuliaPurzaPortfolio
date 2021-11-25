@@ -967,6 +967,7 @@ window.scroll {
         height: 75% !important;
         margin-left: 100px !important;
         margin-top: 25px !important;
+        margin-right: -75px !important;
     }
 }
 
@@ -1041,6 +1042,7 @@ window.scroll {
         float: left !important;
         margin-bottom: 50px !important;
         margin-right: 50px !important;
+        margin-right: -65px !important;
     }
 }
 
@@ -1108,6 +1110,7 @@ p.pcontainer {
         min-width: 100% !important;
         text-align: left !important;
         margin-right: 100px !important;
+        margin-right: -50px !important;
     }
 }
 
