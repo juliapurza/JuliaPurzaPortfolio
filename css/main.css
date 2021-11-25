@@ -931,7 +931,7 @@ html {
 window.scroll {
     top: 100;
     left: 100;
-    behavior: smooth !important;
+    scroll-behavior: smooth !important;
 }
 
 @media screen and (max-device-width: 375px){
