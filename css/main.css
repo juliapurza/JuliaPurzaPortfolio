@@ -1102,7 +1102,7 @@ p.pcontainer {
 }
 
 @media screen and (max-device-width: 480px){
-    p.pcontainer{
+    .pcontainer{
         min-width: 100% !important;
         text-align: left !important;
         margin-right: 100px !important;
