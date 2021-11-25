@@ -955,6 +955,7 @@ window.scroll {
         float: center !important;
         margin-left: auto !important;
         margin-right: auto !important;
+        margin-top: 25px !important;
         display: block !important;
     }
 }
