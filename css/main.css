@@ -953,8 +953,8 @@ window.scroll {
     .mainpagephoto{
         width: 50% !important;
         float: center !important;
-        margin-left: 50px;
-        margin-top: 25px;
+        margin-left: 50px !important;
+        margin-top: 25px !important;
     }
 }
 
