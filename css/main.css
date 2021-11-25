@@ -1102,7 +1102,7 @@ p.pcontainer {
     .pcontainer{
         min-width: 100% !important;
         text-align: left !important;
-        margin-right: 100px !important;
+        padding-right: 100px !important;
     }
 }
 
