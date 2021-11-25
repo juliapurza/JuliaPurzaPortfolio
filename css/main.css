@@ -964,7 +964,9 @@ window.scroll {
 @media screen and (max-device-width: 480px){
     .mainpagephoto{
         width: 75% !important;
-        height: 75% !important;        
+        height: 75% !important;
+        padding-left: 50px !important;
+        padding-top: 25px !important;
     }
 }
 
