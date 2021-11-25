@@ -126,7 +126,7 @@ footer {
 
 @media screen and (max-device-width: 480px){
     footer {
-        position: absolute !important;
+        position: relative !important;
         bottom: 0 !important;
         width: 100% !important;
         height: 50px !important;
