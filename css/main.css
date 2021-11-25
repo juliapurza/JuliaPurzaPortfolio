@@ -953,7 +953,7 @@ window.scroll {
     .mainpagephoto{
         width: 100% !important;
         float: center !important;
-        margin-left: auto !important;
+        margin-left: 25px !important;
         margin-right: auto !important;
         margin-top: 25px !important;
         display: block !important;
