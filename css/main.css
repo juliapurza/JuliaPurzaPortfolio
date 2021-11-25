@@ -961,12 +961,9 @@ window.scroll {
     border-radius: 50px;
 }
 
-@media screen and (max-device-width: 480px){
-    img.mainpagephoto{
-        width: 50% !important;
-        height: 50% !important;
-        margin-left: 100px !important;
-        margin-top: 25px !important;
+@media screen and (max-device-width: 375px){
+    .mainpagephoto{
+        display: none;
     }
 }
 
@@ -1035,7 +1032,7 @@ window.scroll {
     height: 100%;
 }
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 375px){
     .container{
         min-width: 90% !important;
         float: left !important;
@@ -1098,10 +1095,11 @@ p.pcontainer {
     top: 50%;
     left: 50%;
     border-radius: 10px;
+    display: grid;
     margin: 0 auto;
 }
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 375px){
     .pcontainer{
         min-width: 100% !important;
         text-align: left !important;
