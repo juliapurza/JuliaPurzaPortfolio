@@ -1037,7 +1037,7 @@ window.scroll {
         min-width: 90% !important;
         float: left !important;
         margin-bottom: 50px !important;
-        margin-right: 50px !important;
+        padding-right: 100px !important;
     }
 }
 
