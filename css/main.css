@@ -955,6 +955,7 @@ window.scroll {
         float: center !important;
         margin: auto;
         display: block;
+        padding-top: 25px;
     }
 }
 
