@@ -1039,6 +1039,7 @@ window.scroll {
     .container{
         min-width: 90% !important;
         float: left !important;
+        padding-bottom: 25px !important;
     }
 }
 
