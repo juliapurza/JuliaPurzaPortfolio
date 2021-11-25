@@ -1131,7 +1131,7 @@ p.pcontainer {
 
 @media screen and (max-device-width: 480px){
     .HI{
-        min-width: 100% !important;
+        min-width: 80% !important;
         float: center !important;
     }
 }
@@ -1144,7 +1144,7 @@ p.pcontainer {
 
 @media screen and (max-device-width: 480px){
     .HI2{
-        min-width: 100% !important;
+        min-width: 80% !important;
         float: center !important;
     }
 }
