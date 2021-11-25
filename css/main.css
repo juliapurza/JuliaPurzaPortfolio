@@ -942,7 +942,7 @@ window.scroll {
 }
 
 .mainpagephoto {
-    float: right !important;
+    float: center !important;
     margin-right: 75px !important;
     margin-top: -100px !important;
     display: block;
