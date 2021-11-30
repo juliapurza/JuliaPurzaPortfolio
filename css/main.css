@@ -967,6 +967,12 @@ window.scroll {
     }
 }
 
+@media screen and (max-device-width: 1400px){
+    .mainpagephoto{
+        display: none;
+    }
+}
+
 #myBtn {
     position: fixed;
     bottom: 20px;
@@ -1103,6 +1109,13 @@ p.pcontainer {
         min-width: 100% !important;
         text-align: left !important;
         padding-right: 100px !important;
+    }
+}
+
+@media screen and (max-device-width: 1400px){
+    .pcontainer {
+        text-align: left;
+        width: 90% !important;
     }
 }
 
