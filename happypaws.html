@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
+    <head>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <title>Home</title>
+    </head>
+    <body class="background"> 
+    
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="."><img src="img/logonotext.png" width="50px" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;Home</a><br><br><br><br>
+                <button class="goBack" onclick="goBack()">⬅</button>
+                    <script>
+                    function goBack() {
+                        window.history.back();
+                        }
+                    </script>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="img/GeneralResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                    <li><a href="mailto:juliapurza@gmail.com" target="_blank" rel="noopener noreferrer"><img src="img/emailicon.png" height="17" width="22" class="emailicon"></a></li>
+                    <li><a href="https://ca.linkedin.com/in/julia-purza-7ba0231a7" target="_blank" rel="noopener noreferrer"><img src="img/linkedinicon.png" height="17" width="20" class="linkedinicon"></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
+            </div>
+        </div>
+
+<div class="intro">
+    <h1 class="map">Happy Paws: the canine clinic app</h1><br>
+    <h2 class="first">Goal</h2>
+    <p>
+    </p>
+</div>
+
+<br>
+
+<div class="brief" style="width:80%; display:block">
+    <h2 class="second">Software</h2>
+    <p>Adobe Illustrator.&nbsp;&nbsp;<img src="img/Ai.png" height="40px" width="40px" style="margin:2px"><br>
+    Figma.&nbsp;&nbsp;<img src="img/figma.png" height="40px" width="35px" style="margin:2px">
+</p>
+<br>
+
+<h2 class="second">Inspiration and Sketches</h2>
+<p></p>    
+
+<br><br>
+</div>
+
+<div class="intro">
+    <h2 class="first">Final Result</h2>
+    <p>
+    </p>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+<script>
+    //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<br><br><br>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<footer>Julia Purza ©</footer>
+        
+    </body>
+</html>
