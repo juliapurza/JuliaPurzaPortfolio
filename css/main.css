@@ -1172,6 +1172,18 @@ p.pcontainer {
 
 @media screen and (max-device-width: 480px){
     .appicondesigns {
-        min-width: 100% !important;
+        min-width: 80% !important;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+    .appicondesignsdogpaw {
+        min-width: 65% !important;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+    .tayloricon {
+        min-width: 70% !important;
     }
 }
