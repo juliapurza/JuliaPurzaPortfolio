@@ -1169,3 +1169,9 @@ p.pcontainer {
         min-width: 100% !important;
     }
 }
+
+@media screen and (max-device-width: 480px){
+    .appicondesigns {
+        min-width: 100% !important;
+    }
+}
