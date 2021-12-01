@@ -1158,3 +1158,9 @@ p.pcontainer {
         float: left !important;
     }
 }
+
+@media screen and (max-device-width: 480px){
+    .hpsketches {
+        min-width: 50% !important;
+    }
+}
