@@ -1190,11 +1190,11 @@ p.pcontainer {
 }
 
 .hpmedfid {
-    padding: 10px;
+    padding: 20px;
 }
 
 @media screen and (max-device-width: 480px){
     .hpmedfid {
-        min-width: 80% !important;
+        min-width: 100% !important;
     }
 }
