@@ -1159,8 +1159,13 @@ p.pcontainer {
     }
 }
 
+.hpsketches {
+    width: 20%;
+    padding: 10px;
+}
+
 @media screen and (max-device-width: 480px){
     .hpsketches {
-        min-width: 50% !important;
+        min-width: 100% !important;
     }
 }
