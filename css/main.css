@@ -131,7 +131,8 @@ footer {
         left: 0;
         right: 0;
         width: 100% !important;
-        height: 35px !important;
+        height: 30px !important;
+        vertical-align: center !important;
     }
 }
 
