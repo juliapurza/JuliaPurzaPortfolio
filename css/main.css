@@ -1188,3 +1188,13 @@ p.pcontainer {
         min-width: 70% !important;
     }
 }
+
+.hpmedfid {
+    padding: 10px;
+}
+
+@media screen and (max-device-width: 480px){
+    .hpmedfid {
+        min-width: 80% !important;
+    }
+}
