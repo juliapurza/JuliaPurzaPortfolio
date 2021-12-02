@@ -908,13 +908,13 @@ p {
 
 @media screen and (max-device-width: 375px){
     .medfi {
-        min-width: 100% !important;
+        width: 100% !important;
     }
 }
 
 @media screen and (max-device-width: 375px){
     .hifipro {
-        min-width: 75% !important;
+        width: 100% !important;
     }
 }
 
