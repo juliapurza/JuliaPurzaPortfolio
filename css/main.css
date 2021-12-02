@@ -1213,3 +1213,30 @@ p.pcontainer {
         width: 90% !important;
     }
 }
+
+.eachproject {
+    width: 75%;
+    text-align: center;
+    float: center;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-device-width: 480px){
+    .eachproject {
+        width: 90% !important;
+    }
+}
+
+.thepresentation {
+    width: 75%;
+    text-align: center;
+    float: center;
+    margin: auto;
+}
+
+@media screen and (max-device-width: 480px){
+    .thepresentation {
+        width: 90% !important;
+    }
+}
