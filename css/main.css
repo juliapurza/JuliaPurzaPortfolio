@@ -906,19 +906,19 @@ p {
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     .medfi {
         width: 100% !important;
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     .hifipro {
         width: 100% !important;
     }
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     .questions {
         min-width: 75% !important;
     }
