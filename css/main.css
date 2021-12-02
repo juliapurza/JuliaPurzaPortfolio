@@ -231,6 +231,10 @@ img.logocontact:hover {
     border: 2px solid white;
 }
 
+li {
+    color: rgb(84, 84, 84)
+}
+
 .hoverp {
     color: #372883;
     animation:blinkingText 1.5s infinite;
