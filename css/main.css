@@ -1202,4 +1202,14 @@ p.pcontainer {
 
 .theunicef {
     text-align: center;
+    width: 75%;
+    float: center;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-device-width: 480px){
+    .theunicef {
+        width: 90% !important;
+    }
 }
