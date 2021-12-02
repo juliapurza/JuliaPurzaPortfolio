@@ -880,9 +880,9 @@ p {
     margin: auto;
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-device-width: 480px){
     .unicefphoto {
-        display: none !important;
+        width: 100% !important;
     }
 }
 
@@ -1198,4 +1198,8 @@ p.pcontainer {
     .hpmedfid {
         min-width: 100% !important;
     }
+}
+
+.theunicef {
+    text-align: center;
 }
