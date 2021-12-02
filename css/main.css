@@ -891,33 +891,37 @@ p {
 }
 
 @media screen and (max-device-width: 480px){
-.brainstormingpics {
-    min-width: 100% !important;
+    .brainstormingpics {
+       min-width: 100% !important;
+    }
 }
+
+.lowfi {
+    width: 25%;
 }
 
 @media screen and (max-device-width: 480px){
-.lowfi {
-    min-width: 100% !important;
-}
+    .lowfi {
+        min-width: 100% !important;
+    }
 }
 
 @media screen and (max-device-width: 375px){
     .medfi {
         min-width: 100% !important;
     }
+}
+
+@media screen and (max-device-width: 375px){
+    .hifipro {
+        min-width: 75% !important;
     }
-
-@media screen and (max-device-width: 375px){
-.hifipro {
-    min-width: 75% !important;
-}
 }
 
 @media screen and (max-device-width: 375px){
-.questions {
-    min-width: 75% !important;
-}
+    .questions {
+        min-width: 75% !important;
+    }
 }
 
 .frontpagebuttons {
