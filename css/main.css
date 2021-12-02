@@ -1257,3 +1257,13 @@ p.pcontainer {
         width: 90% !important;
     }
 }
+
+.brainstormingpics {
+    width: 65%;
+}
+
+@media screen and (max-device-width: 480px){
+    .brainstormingpics {
+        width: 100% !important;
+    }
+}
