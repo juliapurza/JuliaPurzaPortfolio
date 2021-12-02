@@ -1240,3 +1240,16 @@ p.pcontainer {
         width: 90% !important;
     }
 }
+
+.belowyou {
+    width: 75%;
+    text-align: center;
+    float: center;
+    margin: auto;
+}
+
+@media screen and (max-device-width: 480px){
+    .belowyou {
+        width: 90% !important;
+    }
+}
