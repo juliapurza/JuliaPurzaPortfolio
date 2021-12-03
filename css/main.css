@@ -1249,7 +1249,7 @@ p.pcontainer {
 }
 
 .downarrow {
-    margin-left: 350px;
+    width: 15%;
 }
 
 @media screen and (max-device-width: 480px){
