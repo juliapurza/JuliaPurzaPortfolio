@@ -850,30 +850,6 @@ img.codegif {
     border-right: 1px solid white;
 }
 
-.figure {
-    position: relative;
-    max-width: 100%;
-}
-
-.figure img.image-hover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  object-fit: contain;
-  opacity: 0;
-  transition: opacity .2s;
-}
-
-.figure:hover img.image-hover {
-  opacity: 1;
-}
-
-#qrcodegif {
-    display: none;
-}
-
 p {
     line-height: 125%;
 }
@@ -1269,5 +1245,32 @@ p.pcontainer {
 @media screen and (max-device-width: 480px){
     .brainstormingpics {
         width: 100% !important;
+    }
+}
+
+.downarrow {
+    margin-left: 350px;
+}
+
+@media screen and (max-device-width: 480px){
+    .downarrow {
+        width: 25% !important;
+        float: center;
+        margin: auto;
+        display: block;
+    }
+}
+
+.beforeafter {
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+@media screen and (max-device-width: 480px){
+    .beforeafter {
+        width: 100% !important;
+        float: center;
+        margin: auto;
+        display: block;
     }
 }
