@@ -1184,9 +1184,9 @@ p.pcontainer {
     }
 }
 
-.homedfid1 {
+.hpmedfid1 {
     border: 1px solid black;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 @media screen and (max-device-width: 480px){
