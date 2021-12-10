@@ -1184,6 +1184,17 @@ p.pcontainer {
     }
 }
 
+.homedfid1 {
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+@media screen and (max-device-width: 480px){
+    .hpmedfid1 {
+        min-width: 100% !important;
+    }
+}
+
 .theunicef {
     text-align: center;
     width: 75%;
