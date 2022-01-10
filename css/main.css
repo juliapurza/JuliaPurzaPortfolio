@@ -1280,8 +1280,7 @@ p.pcontainer {
 }
 
 .beforeafter {
-    border: 1px solid grey;
-    padding: 20px;
+    
 }
 
 @media screen and (max-device-width: 480px){
